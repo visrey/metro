@@ -117,6 +117,12 @@ export function App() {
         <div className="col-left">
           <CityHeader data={data} onAbout={() => setAbout(true)} />
           <NetworkLegend data={data} />
+          <footer className="credit">
+            Made with Claude and Beer by{' '}
+            <a href="https://visrey.me" target="_blank" rel="noopener">
+              visrey.me
+            </a>
+          </footer>
         </div>
         <div className="col-right">
           <ThemeSwitch />
