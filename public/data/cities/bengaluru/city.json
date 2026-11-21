@@ -1,0 +1,41 @@
+{
+  "id": "bengaluru",
+  "name": "Bengaluru",
+  "nameLocal": "ಬೆಂಗಳೂರು",
+  "system": "Namma Metro",
+  "operator": "Bangalore Metro Rail Corporation Ltd (BMRCL)",
+  "asOf": "2026-11-20",
+  "camera": { "center": [77.5946, 12.9716], "zoom": 11.2, "pitch": 52, "bearing": -18 },
+  "bounds": [[77.3, 12.7], [77.9, 13.35]],
+  "lines": [
+    { "id": "purple", "name": "Purple Line", "color": "#9B4DCA", "termini": ["Whitefield (Kadugodi)", "Challaghatta"], "expectedYear": { "planned": 2030 } },
+    { "id": "green",  "name": "Green Line",  "color": "#1FA35B", "termini": ["Madavara", "Silk Institute"] },
+    { "id": "yellow", "name": "Yellow Line", "color": "#F2C300", "termini": ["RV Road", "Bommasandra"] },
+    { "id": "pink",   "name": "Pink Line",   "color": "#EC4FB0", "termini": ["Kalena Agrahara", "Nagawara"], "note": "Elevated section open; underground section under construction", "expectedYear": { "construction": 2027 } },
+    { "id": "blue",   "name": "Blue Line",   "color": "#2F7FEA", "termini": ["Central Silk Board", "KIA Airport"], "note": "Phase 2A (ORR) + 2B (Airport)", "expectedYear": { "construction": 2027 } },
+    { "id": "orange", "name": "Orange Line", "color": "#F28A2E", "termini": ["JP Nagar 4th Phase", "Kempapura"], "note": "Phase 3, incl. Hosahalli – Kadabagere", "expectedYear": { "planned": 2030 } },
+    { "id": "red",    "name": "Red Line",    "color": "#D9372B", "termini": ["Sarjapur", "Hebbal"], "note": "Phase 3A, proposed", "expectedYear": { "planned": 2031 } }
+  ],
+  "openings": [
+    { "line": "purple", "from": "Baiyappanahalli", "to": "Mahatma Gandhi Road", "year": 2011 },
+    { "line": "purple", "from": "Nadaprabhu Kempegowda Station, Majestic", "to": "Mysore Road", "year": 2015 },
+    { "line": "purple", "from": "Mahatma Gandhi Road", "to": "Nadaprabhu Kempegowda Station, Majestic", "year": 2016 },
+    { "line": "purple", "from": "Mysore Road", "to": "Kengeri", "year": 2021 },
+    { "line": "purple", "from": "Whitefield (Kadugodi)", "to": "Krishnarajapura", "year": 2023 },
+    { "line": "purple", "from": "Krishnarajapura", "to": "Baiyappanahalli", "year": 2023 },
+    { "line": "purple", "from": "Kengeri", "to": "Challaghatta", "year": 2023 },
+    { "line": "green", "from": "Mantri Square Sampige Road", "to": "Peenya Industry", "year": 2014 },
+    { "line": "green", "from": "Peenya Industry", "to": "Nagasandra", "year": 2015 },
+    { "line": "green", "from": "National College", "to": "Yelachenahalli", "year": 2015 },
+    { "line": "green", "from": "Mantri Square Sampige Road", "to": "National College", "year": 2017 },
+    { "line": "green", "from": "Yelachenahalli", "to": "Silk Institute", "year": 2021 },
+    { "line": "green", "from": "Nagasandra", "to": "Madavara", "year": 2025 },
+    { "line": "yellow", "from": "Rashtreeya Vidyalaya Road", "to": "Delta Electronics Bommasandra", "year": 2025 },
+    { "line": "pink", "from": "Kalena Agrahara", "to": "Suddaguntepalya", "year": 2026 }
+  ],
+  "sources": [
+    "Track and stations: © OpenStreetMap contributors (ODbL)",
+    "Unmapped sections derived from OSM station positions (approximate)",
+    "Opening years compiled by hand and approximate; future years are targets, not commitments"
+  ]
+}

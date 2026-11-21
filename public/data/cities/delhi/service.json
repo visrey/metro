@@ -1,0 +1,29 @@
+{
+  "note": "Approximate service pattern used to SIMULATE trains. Not a published timetable.",
+  "timezone": "Asia/Kolkata",
+  "utcOffsetMinutes": 330,
+  "firstDeparture": "05:30",
+  "lastDeparture": "23:00",
+  "motion": { "maxSpeedKmh": 70, "accel": 0.9, "dwellSec": 30, "interchangeDwellSec": 45 },
+  "headways": [
+    { "from": "05:30", "to": "07:30", "minutes": 8 },
+    { "from": "07:30", "to": "10:30", "minutes": 3.5 },
+    { "from": "10:30", "to": "17:00", "minutes": 5 },
+    { "from": "17:00", "to": "20:30", "minutes": 3.5 },
+    { "from": "20:30", "to": "23:00", "minutes": 8 }
+  ],
+  "lines": {
+    "yellow": { "headwayScale": 0.8 },
+    "blue": { "headwayScale": 0.8 },
+    "blue:4": { "headwayScale": 1.6 },
+    "green": { "headwayScale": 1.5 },
+    "green:5": { "headwayScale": 2.5 },
+    "pink": { "headwayScale": 1.2 },
+    "magenta": { "headwayScale": 1.1 },
+    "magenta:8": { "headwayScale": 2 },
+    "grey": { "headwayScale": 2.5 },
+    "airport": { "headwayScale": 2.5, "maxSpeedKmh": 110 },
+    "rapid": { "headwayScale": 1.4 },
+    "aqua": { "headwayScale": 2 }
+  }
+}
