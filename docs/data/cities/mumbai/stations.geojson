@@ -1,0 +1,2576 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-5219622321",
+    "name": "Chembur",
+    "nameLocal": "चेंबूर",
+    "status": "operational",
+    "lineIds": [
+     "yellow"
+    ],
+    "futureLineIds": [],
+    "osmId": 5219622321,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.892806,
+     19.05413
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-5219622342",
+    "name": "Dahanukarwadi",
+    "nameLocal": "डहाणूकरवाडी",
+    "status": "operational",
+    "lineIds": [
+     "yellow"
+    ],
+    "futureLineIds": [],
+    "osmId": 5219622342,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.834807,
+     19.206232
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-5219622343",
+    "name": "Kandivali (West)",
+    "nameLocal": "कांदिवली (पश्चिम)",
+    "status": "operational",
+    "lineIds": [
+     "yellow"
+    ],
+    "futureLineIds": [],
+    "osmId": 5219622343,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.837305,
+     19.214004
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-5219622344",
+    "name": "Borivali (West)",
+    "nameLocal": "बोरिवली (पश्चिम)",
+    "status": "operational",
+    "lineIds": [
+     "yellow"
+    ],
+    "futureLineIds": [],
+    "osmId": 5219622344,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.840861,
+     19.231392
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-5219622345",
+    "name": "Mandapeshwar - I.C. Colony",
+    "nameLocal": "मंडपेश्वर - आय.सी. कॉलनी",
+    "status": "operational",
+    "lineIds": [
+     "yellow"
+    ],
+    "futureLineIds": [],
+    "osmId": 5219622345,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.8458,
+     19.249586
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-5219622346",
+    "name": "Kandarpada",
+    "nameLocal": "कांदरपाडा",
+    "status": "operational",
+    "lineIds": [
+     "yellow"
+    ],
+    "futureLineIds": [],
+    "osmId": 5219622346,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.850504,
+     19.256634
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-5219622347",
+    "name": "Anand Nagar",
+    "nameLocal": "आनंद नगर",
+    "status": "operational",
+    "lineIds": [
+     "yellow"
+    ],
+    "futureLineIds": [],
+    "osmId": 5219622347,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.866349,
+     19.257209
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-5219622393",
+    "name": "Diamond Garden",
+    "nameLocal": "डायमंड गार्डन",
+    "status": "operational",
+    "lineIds": [
+     "yellow"
+    ],
+    "futureLineIds": [],
+    "osmId": 5219622393,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.901838,
+     19.051719
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-5219623032",
+    "name": "Shimpoli",
+    "nameLocal": "शिंपोली",
+    "status": "operational",
+    "lineIds": [
+     "yellow"
+    ],
+    "futureLineIds": [],
+    "osmId": 5219623032,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.840943,
+     19.222833
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-5219623047",
+    "name": "Eksar",
+    "nameLocal": "एकसर",
+    "status": "operational",
+    "lineIds": [
+     "yellow"
+    ],
+    "futureLineIds": [],
+    "osmId": 5219623047,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.843446,
+     19.240377
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-5221297132",
+    "name": "Chhatrapati Shivaji Maharaj International Airport - T2",
+    "nameLocal": "छत्रपती शिवाजी महाराज आंतरराष्ट्रीय विमानतळ – T2",
+    "status": "operational",
+    "lineIds": [
+     "aqua"
+    ],
+    "futureLineIds": [],
+    "osmId": 5221297132,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.874469,
+     19.102334
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-5221297179",
+    "name": "Bandra Kurla Complex",
+    "nameLocal": "वांद्रे कुर्ला कॉम्प्लेक्स",
+    "status": "operational",
+    "lineIds": [
+     "aqua"
+    ],
+    "futureLineIds": [
+     "yellow"
+    ],
+    "osmId": 5221297179,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.85468,
+     19.060663
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-5787704195",
+    "name": "SEEPZ",
+    "nameLocal": "सीप्झ",
+    "status": "operational",
+    "lineIds": [
+     "aqua"
+    ],
+    "futureLineIds": [],
+    "osmId": 5787704195,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.873727,
+     19.125999
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-5787704196",
+    "name": "MIDC - Andheri",
+    "nameLocal": "एम.आय.डी.सी. - अंधेरी",
+    "status": "operational",
+    "lineIds": [
+     "aqua"
+    ],
+    "futureLineIds": [],
+    "osmId": 5787704196,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.873597,
+     19.117354
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-5787704197",
+    "name": "Marol Naka",
+    "nameLocal": "मरोळ नाका",
+    "status": "operational",
+    "lineIds": [
+     "aqua",
+     "blue"
+    ],
+    "futureLineIds": [],
+    "osmId": 5787704197,
+    "interchange": true
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.878578,
+     19.108504
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-6020955334",
+    "name": "Andheri",
+    "nameLocal": "अंधेरी",
+    "status": "operational",
+    "lineIds": [
+     "blue"
+    ],
+    "futureLineIds": [],
+    "osmId": 6020955334,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.848843,
+     19.120564
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-9627118208",
+    "name": "Dahisar (East)",
+    "nameLocal": "दहिसर (पूर्व)",
+    "status": "operational",
+    "lineIds": [
+     "yellow",
+     "red"
+    ],
+    "futureLineIds": [],
+    "osmId": 9627118208,
+    "interchange": true
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.866666,
+     19.250698
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-9629564097",
+    "name": "Aarey",
+    "nameLocal": "आरे रोड जंक्शन",
+    "status": "operational",
+    "lineIds": [
+     "red"
+    ],
+    "futureLineIds": [],
+    "osmId": 9629564097,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.858792,
+     19.169324
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-9629564098",
+    "name": "Dindoshi",
+    "nameLocal": "दिंडोशी",
+    "status": "operational",
+    "lineIds": [
+     "red"
+    ],
+    "futureLineIds": [],
+    "osmId": 9629564098,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.858298,
+     19.179758
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-9629564099",
+    "name": "Kurar",
+    "nameLocal": "कुरार",
+    "status": "operational",
+    "lineIds": [
+     "red"
+    ],
+    "futureLineIds": [],
+    "osmId": 9629564099,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.858455,
+     19.1873
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-9629564100",
+    "name": "Akurli",
+    "nameLocal": "आकुर्ली",
+    "status": "operational",
+    "lineIds": [
+     "red"
+    ],
+    "futureLineIds": [],
+    "osmId": 9629564100,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.86049,
+     19.198159
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-9629564101",
+    "name": "Poisar",
+    "nameLocal": "पोइसर",
+    "status": "operational",
+    "lineIds": [
+     "red"
+    ],
+    "futureLineIds": [],
+    "osmId": 9629564101,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.863323,
+     19.203771
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-9629564102",
+    "name": "Magathane",
+    "nameLocal": "मगाठाणे",
+    "status": "operational",
+    "lineIds": [
+     "red"
+    ],
+    "futureLineIds": [],
+    "osmId": 9629564102,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.866801,
+     19.216797
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-9629564103",
+    "name": "Devipada",
+    "nameLocal": "देवीपाडा",
+    "status": "operational",
+    "lineIds": [
+     "red"
+    ],
+    "futureLineIds": [],
+    "osmId": 9629564103,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.864325,
+     19.224036
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-9629564104",
+    "name": "Rashtriya Udyan",
+    "nameLocal": "राष्ट्रीय उद्यान",
+    "status": "operational",
+    "lineIds": [
+     "red"
+    ],
+    "futureLineIds": [],
+    "osmId": 9629564104,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.863137,
+     19.234614
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-9629564105",
+    "name": "Ovaripada",
+    "nameLocal": "ओवरीपाडा",
+    "status": "operational",
+    "lineIds": [
+     "red"
+    ],
+    "futureLineIds": [],
+    "osmId": 9629564105,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.864138,
+     19.243149
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-10576622687",
+    "name": "Gundavali",
+    "nameLocal": "गुंदवली",
+    "status": "operational",
+    "lineIds": [
+     "red",
+     "blue"
+    ],
+    "futureLineIds": [],
+    "osmId": 10576622687,
+    "interchange": true
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.855156,
+     19.114513
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-10576622712",
+    "name": "Mogra",
+    "nameLocal": "मोगरा",
+    "status": "operational",
+    "lineIds": [
+     "red"
+    ],
+    "futureLineIds": [],
+    "osmId": 10576622712,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.855456,
+     19.128436
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-10576622721",
+    "name": "Jogeshwari (East)",
+    "nameLocal": "जोगेश्वरी (पूर्व)",
+    "status": "operational",
+    "lineIds": [
+     "red"
+    ],
+    "futureLineIds": [],
+    "osmId": 10576622721,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.855185,
+     19.142945
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-10576622722",
+    "name": "Goregaon (East)",
+    "nameLocal": "गोरेगाव (पूर्व)",
+    "status": "operational",
+    "lineIds": [
+     "red"
+    ],
+    "futureLineIds": [],
+    "osmId": 10576622722,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.856597,
+     19.152449
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-10576726748",
+    "name": "Andheri (West)",
+    "nameLocal": "अंधेरी (पश्चिम)",
+    "status": "operational",
+    "lineIds": [
+     "yellow",
+     "blue"
+    ],
+    "futureLineIds": [],
+    "osmId": 10576726748,
+    "interchange": true
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.831431,
+     19.129134
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-10576726751",
+    "name": "Lower Oshiwara",
+    "nameLocal": "लोअर ओशिवरा",
+    "status": "operational",
+    "lineIds": [
+     "yellow"
+    ],
+    "futureLineIds": [
+     "pink"
+    ],
+    "osmId": 10576726751,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.831714,
+     19.140698
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-10576726756",
+    "name": "Oshiwara",
+    "nameLocal": "ओशिवारा",
+    "status": "operational",
+    "lineIds": [
+     "yellow"
+    ],
+    "futureLineIds": [],
+    "osmId": 10576726756,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.833952,
+     19.146035
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-10576726757",
+    "name": "Goregaon (West)",
+    "nameLocal": "गोरेगाँव (पश्चिम)",
+    "status": "operational",
+    "lineIds": [
+     "yellow"
+    ],
+    "futureLineIds": [],
+    "osmId": 10576726757,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.835666,
+     19.153024
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-10576726761",
+    "name": "Lower Malad",
+    "nameLocal": "लोअर मालाड",
+    "status": "operational",
+    "lineIds": [
+     "yellow"
+    ],
+    "futureLineIds": [],
+    "osmId": 10576726761,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.83648,
+     19.173098
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-10576726762",
+    "name": "Malad (West)",
+    "nameLocal": "मालाड (पश्चिम)",
+    "status": "operational",
+    "lineIds": [
+     "yellow"
+    ],
+    "futureLineIds": [],
+    "osmId": 10576726762,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.835861,
+     19.185285
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-10576726763",
+    "name": "Valnai-Meeth Chowky",
+    "nameLocal": "वळनई-मीठ चौकी",
+    "status": "operational",
+    "lineIds": [
+     "yellow"
+    ],
+    "futureLineIds": [],
+    "osmId": 10576726763,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.833775,
+     19.196829
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-11335491947",
+    "name": "CBD Belapur",
+    "nameLocal": "सी बी डी बेलापूर",
+    "status": "operational",
+    "lineIds": [
+     "navi"
+    ],
+    "futureLineIds": [],
+    "osmId": 11335491947,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.040266,
+     19.0206
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-11335491948",
+    "name": "RBI Colony",
+    "nameLocal": "आर.बी.आय. कॉलनी",
+    "status": "operational",
+    "lineIds": [
+     "navi"
+    ],
+    "futureLineIds": [],
+    "osmId": 11335491948,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.047943,
+     19.022985
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-12074909129",
+    "name": "Bandra Colony",
+    "nameLocal": null,
+    "status": "operational",
+    "lineIds": [
+     "aqua"
+    ],
+    "futureLineIds": [],
+    "osmId": 12074909129,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.84936,
+     19.069963
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-12074909130",
+    "name": "Santacruz",
+    "nameLocal": "सांताक्रूझ",
+    "status": "operational",
+    "lineIds": [
+     "aqua"
+    ],
+    "futureLineIds": [],
+    "osmId": 12074909130,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.847118,
+     19.079289
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-12074909131",
+    "name": "Chhatrapati Shivaji Maharaj International Airport - T1",
+    "nameLocal": "छत्रपती शिवाजी महाराज आंतरराष्ट्रीय विमानतळ – T1",
+    "status": "operational",
+    "lineIds": [
+     "aqua"
+    ],
+    "futureLineIds": [],
+    "osmId": 12074909131,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.853577,
+     19.093899
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-12074909132",
+    "name": "Sahar Road",
+    "nameLocal": "सहार रोड",
+    "status": "operational",
+    "lineIds": [
+     "aqua"
+    ],
+    "futureLineIds": [
+     "red"
+    ],
+    "osmId": 12074909132,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.865236,
+     19.102196
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-12196197980",
+    "name": "Bangur Nagar",
+    "nameLocal": "बांगुर नगर",
+    "status": "operational",
+    "lineIds": [
+     "yellow"
+    ],
+    "futureLineIds": [],
+    "osmId": 12196197980,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.834871,
+     19.162472
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-12855459845",
+    "name": "Dadar",
+    "nameLocal": "दादर",
+    "status": "operational",
+    "lineIds": [
+     "aqua"
+    ],
+    "futureLineIds": [],
+    "osmId": 12855459845,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.839221,
+     19.023624
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-12855459846",
+    "name": "Shitala Devi Mandir",
+    "nameLocal": "शितला देवी मंदिर",
+    "status": "operational",
+    "lineIds": [
+     "aqua"
+    ],
+    "futureLineIds": [],
+    "osmId": 12855459846,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.841965,
+     19.038464
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-12855459847",
+    "name": "Dharavi",
+    "nameLocal": "धारावी",
+    "status": "operational",
+    "lineIds": [
+     "aqua"
+    ],
+    "futureLineIds": [],
+    "osmId": 12855459847,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.849741,
+     19.046261
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-12857565154",
+    "name": "Acharya Atre Chowk",
+    "nameLocal": "आचार्य अत्रे चौक",
+    "status": "operational",
+    "lineIds": [
+     "aqua"
+    ],
+    "futureLineIds": [],
+    "osmId": 12857565154,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.81772,
+     18.99782
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-12857565155",
+    "name": "Worli",
+    "nameLocal": "वरळी",
+    "status": "operational",
+    "lineIds": [
+     "aqua"
+    ],
+    "futureLineIds": [],
+    "osmId": 12857565155,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.819274,
+     19.008606
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-12857565156",
+    "name": "Siddhivinayak Temple",
+    "nameLocal": "सिद्धिविनायक मंदिर",
+    "status": "operational",
+    "lineIds": [
+     "aqua"
+    ],
+    "futureLineIds": [],
+    "osmId": 12857565156,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.83092,
+     19.015894
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-13192130534",
+    "name": "Jagannath Shankar Sheth",
+    "nameLocal": "जगन्नाथ शंकर शेठ मेट्रो",
+    "status": "operational",
+    "lineIds": [
+     "aqua"
+    ],
+    "futureLineIds": [],
+    "osmId": 13192130534,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.821179,
+     18.969992
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-13192130535",
+    "name": "Mahalaxmi",
+    "nameLocal": "महालक्ष्मी",
+    "status": "operational",
+    "lineIds": [
+     "aqua"
+    ],
+    "futureLineIds": [],
+    "osmId": 13192130535,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.825401,
+     18.979467
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-13192130536",
+    "name": "Science Centre",
+    "nameLocal": "विज्ञान संग्रहालय",
+    "status": "operational",
+    "lineIds": [
+     "aqua"
+    ],
+    "futureLineIds": [],
+    "osmId": 13192130536,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.821352,
+     18.990895
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-13207029317",
+    "name": "Cuffe Parade",
+    "nameLocal": "कफ परेड",
+    "status": "operational",
+    "lineIds": [
+     "aqua"
+    ],
+    "futureLineIds": [],
+    "osmId": 13207029317,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.820715,
+     18.913569
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-13207029318",
+    "name": "Vidhan Bhavan",
+    "nameLocal": "विधान भवन",
+    "status": "operational",
+    "lineIds": [
+     "aqua"
+    ],
+    "futureLineIds": [],
+    "osmId": 13207029318,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.825493,
+     18.924781
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-13207029319",
+    "name": "Churchgate",
+    "nameLocal": "चर्चगेट",
+    "status": "operational",
+    "lineIds": [
+     "aqua"
+    ],
+    "futureLineIds": [],
+    "osmId": 13207029319,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.826939,
+     18.931495
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-13207029320",
+    "name": "Hutatma Chowk",
+    "nameLocal": "हुतात्मा चौक",
+    "status": "operational",
+    "lineIds": [
+     "aqua"
+    ],
+    "futureLineIds": [
+     "green"
+    ],
+    "osmId": 13207029320,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.832504,
+     18.934185
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-13207029322",
+    "name": "Chhatrapati Shivaji Maharaj Terminus",
+    "nameLocal": "छत्रपती शिवाजी महाराज टर्मिनस",
+    "status": "operational",
+    "lineIds": [
+     "aqua"
+    ],
+    "futureLineIds": [
+     "green"
+    ],
+    "osmId": 13207029322,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.831861,
+     18.940833
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-13207029323",
+    "name": "Kalbadevi",
+    "nameLocal": "काळबादेवी",
+    "status": "operational",
+    "lineIds": [
+     "aqua"
+    ],
+    "futureLineIds": [],
+    "osmId": 13207029323,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.827193,
+     18.946329
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-13207029324",
+    "name": "Girgaon",
+    "nameLocal": "गिरगाव",
+    "status": "operational",
+    "lineIds": [
+     "aqua"
+    ],
+    "futureLineIds": [],
+    "osmId": 13207029324,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.822206,
+     18.952102
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-13207029325",
+    "name": "Grant Road",
+    "nameLocal": "ग्रँट रोड",
+    "status": "operational",
+    "lineIds": [
+     "aqua"
+    ],
+    "futureLineIds": [],
+    "osmId": 13207029325,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.818044,
+     18.963218
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-13252985100",
+    "name": "Mandale",
+    "nameLocal": "मंडाले",
+    "status": "operational",
+    "lineIds": [
+     "yellow"
+    ],
+    "futureLineIds": [],
+    "osmId": 13252985100,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.938661,
+     19.049592
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-13252997901",
+    "name": "Shivaji Chowk (Chembur)",
+    "nameLocal": "शिवाजी चौक (चेंबूर)",
+    "status": "operational",
+    "lineIds": [
+     "yellow"
+    ],
+    "futureLineIds": [],
+    "osmId": 13252997901,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.906981,
+     19.047938
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-13252997906",
+    "name": "Deonar",
+    "nameLocal": "देवनार",
+    "status": "operational",
+    "lineIds": [
+     "yellow"
+    ],
+    "futureLineIds": [],
+    "osmId": 13252997906,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.917495,
+     19.044833
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-13252997911",
+    "name": "Mankhurd",
+    "nameLocal": "मानखुर्द",
+    "status": "operational",
+    "lineIds": [
+     "yellow"
+    ],
+    "futureLineIds": [],
+    "osmId": 13252997911,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.931231,
+     19.049217
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-13758670736",
+    "name": "Pandurang Wadi",
+    "nameLocal": "पांडुरंग वाडी",
+    "status": "operational",
+    "lineIds": [
+     "red"
+    ],
+    "futureLineIds": [],
+    "osmId": 13758670736,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.872486,
+     19.259726
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-13758670737",
+    "name": "Miragaon",
+    "nameLocal": "मिरागाव",
+    "status": "operational",
+    "lineIds": [
+     "red"
+    ],
+    "futureLineIds": [],
+    "osmId": 13758670737,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.880698,
+     19.271007
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-13758670740",
+    "name": "Kashigaon",
+    "nameLocal": "काशिगाव",
+    "status": "operational",
+    "lineIds": [
+     "red"
+    ],
+    "futureLineIds": [],
+    "osmId": 13758670740,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.88024,
+     19.277666
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-14078180443",
+    "name": "Pendhar",
+    "nameLocal": "पेंढार",
+    "status": "operational",
+    "lineIds": [
+     "navi"
+    ],
+    "futureLineIds": [],
+    "osmId": 14078180443,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.097844,
+     19.072212
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-623881991",
+    "name": "Versova",
+    "nameLocal": "वर्सोवा",
+    "status": "operational",
+    "lineIds": [
+     "blue"
+    ],
+    "futureLineIds": [],
+    "osmId": 623881991,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.821387,
+     19.130278
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-623883811",
+    "name": "Chakala - J.B. Nagar",
+    "nameLocal": "चकाला - जे. बी. नगर",
+    "status": "operational",
+    "lineIds": [
+     "blue"
+    ],
+    "futureLineIds": [],
+    "osmId": 623883811,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.867001,
+     19.112189
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-623884121",
+    "name": "Saki Naka",
+    "nameLocal": "साकी नाका",
+    "status": "operational",
+    "lineIds": [
+     "blue"
+    ],
+    "futureLineIds": [],
+    "osmId": 623884121,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.88742,
+     19.103846
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-2913172821",
+    "name": "Azad Nagar",
+    "nameLocal": "आझाद नगर",
+    "status": "operational",
+    "lineIds": [
+     "blue"
+    ],
+    "futureLineIds": [],
+    "osmId": 2913172821,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.837021,
+     19.127023
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-2913182920",
+    "name": "Asalpha",
+    "nameLocal": "असल्फा",
+    "status": "operational",
+    "lineIds": [
+     "blue"
+    ],
+    "futureLineIds": [],
+    "osmId": 2913182920,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.894326,
+     19.096739
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-3175794769",
+    "name": "Airport Road",
+    "nameLocal": "विमानतळ रस्ता",
+    "status": "operational",
+    "lineIds": [
+     "blue"
+    ],
+    "futureLineIds": [],
+    "osmId": 3175794769,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.874797,
+     19.109915
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-3175794771",
+    "name": "Ghatkopar",
+    "nameLocal": "घाटकोपर",
+    "status": "operational",
+    "lineIds": [
+     "blue"
+    ],
+    "futureLineIds": [],
+    "osmId": 3175794771,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.907986,
+     19.086283
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-3175794773",
+    "name": "Jagruti Nagar",
+    "nameLocal": "जागृती नगर",
+    "status": "operational",
+    "lineIds": [
+     "blue"
+    ],
+    "futureLineIds": [],
+    "osmId": 3175794773,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.9026,
+     19.092171
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-5461505089",
+    "name": "Belpada",
+    "nameLocal": "बेलपाडा",
+    "status": "operational",
+    "lineIds": [
+     "navi"
+    ],
+    "futureLineIds": [],
+    "osmId": 5461505089,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.054924,
+     19.025297
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-5501092821",
+    "name": "Utsav Chowk",
+    "nameLocal": "उत्सव चौक",
+    "status": "operational",
+    "lineIds": [
+     "navi"
+    ],
+    "futureLineIds": [],
+    "osmId": 5501092821,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.05894,
+     19.032611
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-5501092822",
+    "name": "Kendriya Vihar",
+    "nameLocal": "केंद्रीय विहार",
+    "status": "operational",
+    "lineIds": [
+     "navi"
+    ],
+    "futureLineIds": [],
+    "osmId": 5501092822,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.064094,
+     19.037688
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-5501092823",
+    "name": "Kharghar Village",
+    "nameLocal": "खारघर गाव",
+    "status": "operational",
+    "lineIds": [
+     "navi"
+    ],
+    "futureLineIds": [],
+    "osmId": 5501092823,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.074339,
+     19.043227
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-5501092824",
+    "name": "Central Park",
+    "nameLocal": "सेंट्रल पार्क",
+    "status": "operational",
+    "lineIds": [
+     "navi"
+    ],
+    "futureLineIds": [],
+    "osmId": 5501092824,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.075984,
+     19.05368
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-5501092825",
+    "name": "Pethpada",
+    "nameLocal": "पेठपाडा",
+    "status": "operational",
+    "lineIds": [
+     "navi"
+    ],
+    "futureLineIds": [],
+    "osmId": 5501092825,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.077348,
+     19.063875
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-5501092826",
+    "name": "Sector 34",
+    "nameLocal": "सेक्टर 34",
+    "status": "operational",
+    "lineIds": [
+     "navi"
+    ],
+    "futureLineIds": [],
+    "osmId": 5501092826,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.08187,
+     19.073688
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-5501092827",
+    "name": "Panchanand",
+    "nameLocal": "पंचानंद",
+    "status": "operational",
+    "lineIds": [
+     "navi"
+    ],
+    "futureLineIds": [],
+    "osmId": 5501092827,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.090672,
+     19.074636
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-12074903239",
+    "name": "Aarey JVLR",
+    "nameLocal": "आरे कॉलनी",
+    "status": "operational",
+    "lineIds": [
+     "aqua"
+    ],
+    "futureLineIds": [],
+    "osmId": 12074903239,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.884197,
+     19.131046
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-5219622325",
+    "name": "Saraswat Nagar",
+    "nameLocal": null,
+    "status": "construction",
+    "lineIds": [
+     "yellow"
+    ],
+    "futureLineIds": [],
+    "osmId": 5219622325,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.837553,
+     19.074668
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-5219622327",
+    "name": "Khira Nagar",
+    "nameLocal": null,
+    "status": "construction",
+    "lineIds": [
+     "yellow"
+    ],
+    "futureLineIds": [],
+    "osmId": 5219622327,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.837959,
+     19.082919
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-5219622332",
+    "name": "National College",
+    "nameLocal": null,
+    "status": "construction",
+    "lineIds": [
+     "yellow"
+    ],
+    "futureLineIds": [],
+    "osmId": 5219622332,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.837311,
+     19.064822
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-5219622334",
+    "name": "Nanavati Hospital",
+    "nameLocal": null,
+    "status": "construction",
+    "lineIds": [
+     "yellow"
+    ],
+    "futureLineIds": [],
+    "osmId": 5219622334,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.839506,
+     19.096079
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-5219622335",
+    "name": "Prem Nagar",
+    "nameLocal": null,
+    "status": "construction",
+    "lineIds": [
+     "yellow"
+    ],
+    "futureLineIds": [],
+    "osmId": 5219622335,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.837157,
+     19.110043
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-5219622408",
+    "name": "EEH",
+    "nameLocal": null,
+    "status": "construction",
+    "lineIds": [
+     "green",
+     "yellow"
+    ],
+    "futureLineIds": [],
+    "osmId": 5219622408,
+    "interchange": true
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.88706,
+     19.057237
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-5219622419",
+    "name": "Kurla",
+    "nameLocal": null,
+    "status": "construction",
+    "lineIds": [
+     "yellow"
+    ],
+    "futureLineIds": [],
+    "osmId": 5219622419,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.884714,
+     19.062995
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-5219622634",
+    "name": "Kurla Terminal",
+    "nameLocal": null,
+    "status": "construction",
+    "lineIds": [
+     "yellow"
+    ],
+    "futureLineIds": [],
+    "osmId": 5219622634,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.885087,
+     19.071817
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-5219622644",
+    "name": "SG Barve Marg",
+    "nameLocal": null,
+    "status": "construction",
+    "lineIds": [
+     "yellow"
+    ],
+    "futureLineIds": [],
+    "osmId": 5219622644,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.877407,
+     19.075804
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-5219622658",
+    "name": "MTNL",
+    "nameLocal": null,
+    "status": "construction",
+    "lineIds": [
+     "yellow"
+    ],
+    "futureLineIds": [],
+    "osmId": 5219622658,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.870629,
+     19.070486
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-5219622663",
+    "name": "IL&FS",
+    "nameLocal": null,
+    "status": "construction",
+    "lineIds": [
+     "yellow"
+    ],
+    "futureLineIds": [],
+    "osmId": 5219622663,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.860038,
+     19.063642
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-5219622677",
+    "name": "MMRDA",
+    "nameLocal": null,
+    "status": "construction",
+    "lineIds": [
+     "yellow"
+    ],
+    "futureLineIds": [],
+    "osmId": 5219622677,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.849391,
+     19.054011
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-5219622821",
+    "name": "Indira Nagar",
+    "nameLocal": null,
+    "status": "construction",
+    "lineIds": [
+     "yellow"
+    ],
+    "futureLineIds": [],
+    "osmId": 5219622821,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.836866,
+     19.102888
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-5219622841",
+    "name": "ESIC Nagar",
+    "nameLocal": null,
+    "status": "construction",
+    "lineIds": [
+     "yellow"
+    ],
+    "futureLineIds": [],
+    "osmId": 5219622841,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.829859,
+     19.116574
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-5226162351",
+    "name": "Meditya Nagar Station",
+    "nameLocal": null,
+    "status": "construction",
+    "lineIds": [
+     "red"
+    ],
+    "futureLineIds": [],
+    "osmId": 5226162351,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.860318,
+     19.293691
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-9130240849",
+    "name": "Sai Baba Nagar Station",
+    "nameLocal": null,
+    "status": "construction",
+    "lineIds": [
+     "red"
+    ],
+    "futureLineIds": [],
+    "osmId": 9130240849,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.870854,
+     19.284474
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-9130240857",
+    "name": "Shaheed Bhagat Singh Garden Station",
+    "nameLocal": null,
+    "status": "construction",
+    "lineIds": [
+     "red"
+    ],
+    "futureLineIds": [],
+    "osmId": 9130240857,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.853794,
+     19.295051
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-11703145846",
+    "name": "Khandeshwar",
+    "nameLocal": null,
+    "status": "construction",
+    "lineIds": [
+     "navi"
+    ],
+    "futureLineIds": [],
+    "osmId": 11703145846,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.094719,
+     19.010273
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-5225899275",
+    "name": "Nagpada Junction",
+    "nameLocal": null,
+    "status": "planned",
+    "lineIds": [
+     "green"
+    ],
+    "futureLineIds": [],
+    "osmId": 5225899275,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.828741,
+     18.966683
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-5225899286",
+    "name": "Reay Road",
+    "nameLocal": null,
+    "status": "planned",
+    "lineIds": [
+     "green"
+    ],
+    "futureLineIds": [],
+    "osmId": 5225899286,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.843315,
+     18.975964
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-5225899320",
+    "name": "BPT Hospital",
+    "nameLocal": null,
+    "status": "planned",
+    "lineIds": [
+     "green"
+    ],
+    "futureLineIds": [],
+    "osmId": 5225899320,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.862269,
+     19.01187
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-9132436353",
+    "name": "Crawford Market",
+    "nameLocal": null,
+    "status": "planned",
+    "lineIds": [
+     "green"
+    ],
+    "futureLineIds": [],
+    "osmId": 9132436353,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.833734,
+     18.947359
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-10244200822",
+    "name": "Sewri",
+    "nameLocal": null,
+    "status": "planned",
+    "lineIds": [
+     "green"
+    ],
+    "futureLineIds": [],
+    "osmId": 10244200822,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.855046,
+     18.998522
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-10244200828",
+    "name": "Coal Bunder",
+    "nameLocal": null,
+    "status": "planned",
+    "lineIds": [
+     "green"
+    ],
+    "futureLineIds": [],
+    "osmId": 10244200828,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.850157,
+     18.98156
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-12902033343",
+    "name": "Ganesh Nagar",
+    "nameLocal": null,
+    "status": "planned",
+    "lineIds": [
+     "green"
+    ],
+    "futureLineIds": [],
+    "osmId": 12902033343,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.865989,
+     19.018525
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-12902033350",
+    "name": "CGS Colony",
+    "nameLocal": null,
+    "status": "planned",
+    "lineIds": [
+     "green"
+    ],
+    "futureLineIds": [],
+    "osmId": 12902033350,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.86886,
+     19.029123
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-12902121976",
+    "name": "Byculla",
+    "nameLocal": null,
+    "status": "planned",
+    "lineIds": [
+     "green"
+    ],
+    "futureLineIds": [],
+    "osmId": 12902121976,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.833445,
+     18.975611
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-12902121982",
+    "name": "Bhendi Bazaar",
+    "nameLocal": null,
+    "status": "planned",
+    "lineIds": [
+     "green"
+    ],
+    "futureLineIds": [],
+    "osmId": 12902121982,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.831862,
+     18.957314
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-12902121997",
+    "name": "SMP Circle",
+    "nameLocal": null,
+    "status": "planned",
+    "lineIds": [
+     "green"
+    ],
+    "futureLineIds": [],
+    "osmId": 12902121997,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.83261,
+     18.92526
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-12902183202",
+    "name": "Hay Bunder",
+    "nameLocal": null,
+    "status": "planned",
+    "lineIds": [
+     "green"
+    ],
+    "futureLineIds": [],
+    "osmId": 12902183202,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.85432,
+     18.990282
+    ]
+   }
+  }
+ ],
+ "meta": {
+  "osmTimestamp": "2026-11-21T11:18:03Z",
+  "attribution": "© OpenStreetMap contributors (ODbL)"
+ }
+}

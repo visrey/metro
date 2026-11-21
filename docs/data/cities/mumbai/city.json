@@ -1,0 +1,39 @@
+{
+  "id": "mumbai",
+  "name": "Mumbai",
+  "nameLocal": "मुंबई",
+  "system": "Mumbai Metro",
+  "operator": "MMRDA, MMRC (Line 3), MMOPL (Line 1) and CIDCO (Navi Mumbai)",
+  "asOf": "2026-11-21",
+  "camera": { "center": [72.93, 19.08], "zoom": 10.35, "pitch": 50, "bearing": 8 },
+  "bounds": [[72.75, 18.85], [73.2, 19.35]],
+  "lines": [
+    { "id": "blue",   "name": "Line 1",  "color": "#2F7FEA", "termini": ["Versova", "Ghatkopar"] },
+    { "id": "yellow", "name": "Line 2",  "color": "#F2C300", "termini": ["Dahisar (East)", "Andheri (West)"], "note": "2A open; 2B Mandale – Chembur open, rest under construction", "expectedYear": { "construction": 2027 } },
+    { "id": "aqua",   "name": "Line 3",  "color": "#14B8C4", "termini": ["Aarey JVLR", "Cuffe Parade"], "note": "Underground, Colaba – Bandra – SEEPZ" },
+    { "id": "green",  "name": "Line 4",  "color": "#1FA35B", "termini": ["Wadala", "Gaimukh"], "note": "Incl. 4A; Lines 10 and 11 extend it", "expectedYear": { "construction": 2027, "planned": 2031 } },
+    { "id": "orange", "name": "Line 5",  "color": "#F28A2E", "termini": ["Thane", "Kalyan"], "expectedYear": { "construction": 2028 } },
+    { "id": "pink",   "name": "Line 6",  "color": "#EC4FB0", "termini": ["Swami Samarth Nagar", "Vikhroli"], "expectedYear": { "construction": 2027 } },
+    { "id": "red",    "name": "Line 7",  "color": "#D9372B", "termini": ["Gundavali", "Dahisar (East)"], "note": "Line 9 extends it to Kashigaon", "expectedYear": { "construction": 2027 } },
+    { "id": "navi",   "name": "Navi Mumbai Line 1", "color": "#8E3FA8", "termini": ["CBD Belapur", "Pendhar"], "note": "CIDCO", "expectedYear": { "construction": 2028 } },
+    { "id": "thane",  "name": "Thane Ring Metro", "color": "#9C6B3C", "termini": ["Thane", "Thane"], "note": "Proposed", "expectedYear": { "planned": 2030 } }
+  ],
+  "openings": [
+    { "line": "blue", "from": "Versova", "to": "Ghatkopar", "year": 2014 },
+    { "line": "yellow", "from": "Dahanukarwadi", "to": "Dahisar (East)", "year": 2022 },
+    { "line": "yellow", "from": "Andheri (West)", "to": "Dahanukarwadi", "year": 2023 },
+    { "line": "yellow", "from": "Mandale", "to": "Chembur", "year": 2025 },
+    { "line": "red", "from": "Dahisar (East)", "to": "Aarey", "year": 2022 },
+    { "line": "red", "from": "Aarey", "to": "Gundavali", "year": 2023 },
+    { "line": "red", "from": "Dahisar (East)", "to": "Kashigaon", "year": 2025 },
+    { "line": "aqua", "from": "Aarey JVLR", "to": "Bandra Kurla Complex", "year": 2024 },
+    { "line": "aqua", "from": "Bandra Kurla Complex", "to": "Acharya Atre Chowk", "year": 2025 },
+    { "line": "aqua", "from": "Acharya Atre Chowk", "to": "Cuffe Parade", "year": 2025 },
+    { "line": "navi", "from": "CBD Belapur", "to": "Pendhar", "year": 2023 }
+  ],
+  "sources": [
+    "Track and stations: © OpenStreetMap contributors (ODbL)",
+    "Monorail and suburban rail are not included",
+    "Opening years compiled by hand and approximate; future years are targets, not commitments"
+  ]
+}

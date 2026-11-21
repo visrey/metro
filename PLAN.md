@@ -123,6 +123,7 @@ scripts/
     - Delhi: 13 lines, 413 km running, 274 stations open; Phase 4 corridors under construction or planned. Namo Bharat (RRTS) is excluded.
     - Mumbai: 9 lines, 97 km running, 86 stations open; Lines 2B, 4, 5, 6, 9 and Navi Mumbai Stage 2 under construction. Monorail and suburban rail are excluded.
 11. City picker with `/bengaluru`, `/delhi` and `/mumbai` routes; `npm run build` also writes `404.html` so these URLs load on static hosts.
+    Hosting: GitHub Pages from `main` → `/docs` at metro.visrey.me. `npm run build` writes the site into `docs/` (with `CNAME`, `.nojekyll` and `404.html`); commit `docs/` to publish.
 12. Camera opens fitted to each city's running network, panel-aware on desktop and phone. Line station lists follow the actual track, with branches listed separately.
 
 **Not yet**

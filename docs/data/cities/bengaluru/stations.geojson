@@ -1,0 +1,2759 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-1576973953",
+    "name": "Madavara",
+    "nameLocal": "ಮದವರ",
+    "status": "operational",
+    "lineIds": [
+     "green"
+    ],
+    "futureLineIds": [],
+    "osmId": 1576973953,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.472806,
+     13.057421
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-1576973954",
+    "name": "Chikkabidarakallu",
+    "nameLocal": "ಚಿಕ್ಕಬಿದರಕಲ್ಲು",
+    "status": "operational",
+    "lineIds": [
+     "green"
+    ],
+    "futureLineIds": [],
+    "osmId": 1576973954,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.487915,
+     13.052362
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-1576973980",
+    "name": "Manjunathanagara",
+    "nameLocal": "ಮಂಜುನಾಥನಗರ",
+    "status": "operational",
+    "lineIds": [
+     "green"
+    ],
+    "futureLineIds": [],
+    "osmId": 1576973980,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.494446,
+     13.05009
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-3302642058",
+    "name": "Jayadeva Hospital",
+    "nameLocal": "ಜಯದೇವ ಆಸ್ಪತ್ರೆ",
+    "status": "operational",
+    "lineIds": [
+     "yellow",
+     "pink"
+    ],
+    "futureLineIds": [],
+    "osmId": 3302642058,
+    "interchange": true
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.599966,
+     12.916731
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-5760197744",
+    "name": "Whitefield (Kadugodi)",
+    "nameLocal": "ವೈಟ್‌ಫೀಲ್ಡ್ (ಕಾಡುಗೋಡಿ)",
+    "status": "operational",
+    "lineIds": [
+     "purple"
+    ],
+    "futureLineIds": [],
+    "osmId": 5760197744,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.757949,
+     12.995743
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-5760197745",
+    "name": "Hopefarm Channasandra",
+    "nameLocal": "ಹೋಪ್ ಫಾರ್ಮ್ ಚನ್ನಸಂದ್ರ",
+    "status": "operational",
+    "lineIds": [
+     "purple"
+    ],
+    "futureLineIds": [],
+    "osmId": 5760197745,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.753884,
+     12.987297
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-5760197749",
+    "name": "Pattandur Agrahara",
+    "nameLocal": "ಪಟ್ಟಂದೂರು ಅಗ್ರಹಾರ",
+    "status": "operational",
+    "lineIds": [
+     "purple"
+    ],
+    "futureLineIds": [],
+    "osmId": 5760197749,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.737772,
+     12.987639
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-5760197751",
+    "name": "Sri Sathya Sai Hospital",
+    "nameLocal": "ಶ್ರೀ ಸತ್ಯ ಸಾಯಿ ಆಸ್ಪತ್ರೆ",
+    "status": "operational",
+    "lineIds": [
+     "purple"
+    ],
+    "futureLineIds": [],
+    "osmId": 5760197751,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.727536,
+     12.981195
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-5760197754",
+    "name": "Nallurahalli",
+    "nameLocal": "ನಲ್ಲೂರಹಳ್ಳಿ",
+    "status": "operational",
+    "lineIds": [
+     "purple"
+    ],
+    "futureLineIds": [],
+    "osmId": 5760197754,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.724885,
+     12.976641
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-5760197755",
+    "name": "Kundalahalli",
+    "nameLocal": "ಕುಂದಲಹಳ್ಳಿ",
+    "status": "operational",
+    "lineIds": [
+     "purple"
+    ],
+    "futureLineIds": [],
+    "osmId": 5760197755,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.715559,
+     12.977594
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-5760197757",
+    "name": "Seetharampalya",
+    "nameLocal": "ಸೀತಾರಾಮ ಪಾಳ್ಯ",
+    "status": "operational",
+    "lineIds": [
+     "purple"
+    ],
+    "futureLineIds": [],
+    "osmId": 5760197757,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.708785,
+     12.980856
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-5760197761",
+    "name": "Hoodi",
+    "nameLocal": "ಹೂಡಿ",
+    "status": "operational",
+    "lineIds": [
+     "purple"
+    ],
+    "futureLineIds": [],
+    "osmId": 5760197761,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.711326,
+     12.988803
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-5760197762",
+    "name": "Garudacharpalya",
+    "nameLocal": "ಗರುಡಾಚಾರ್ ಪಾಳ್ಯ",
+    "status": "operational",
+    "lineIds": [
+     "purple"
+    ],
+    "futureLineIds": [],
+    "osmId": 5760197762,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.703677,
+     12.99345
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-5760197764",
+    "name": "Singayyanapalya",
+    "nameLocal": "ಸಿಂಗಯ್ಯನಪಾಳ್ಯ",
+    "status": "operational",
+    "lineIds": [
+     "purple"
+    ],
+    "futureLineIds": [],
+    "osmId": 5760197764,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.692718,
+     12.996545
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-5760197765",
+    "name": "Krishnarajapura",
+    "nameLocal": "ಕೃಷ್ಣರಾಜಪುರ (ಕೆ.ಆರ್.ಪುರ)",
+    "status": "operational",
+    "lineIds": [
+     "purple"
+    ],
+    "futureLineIds": [
+     "blue"
+    ],
+    "osmId": 5760197765,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.67767,
+     12.999902
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-5760197766",
+    "name": "Benniganahalli",
+    "nameLocal": "ಬೆನ್ನಿಗಾನಹಳ್ಳಿ",
+    "status": "operational",
+    "lineIds": [
+     "purple"
+    ],
+    "futureLineIds": [
+     "blue"
+    ],
+    "osmId": 5760197766,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.668462,
+     12.996516
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-5760197806",
+    "name": "Delta Electronics Bommasandra",
+    "nameLocal": "ಡೆಲ್ಟಾ ಎಲೆಕ್ಟ್ರಾನಿಕ್ಸ್ ಬೊಮ್ಮಸಂದ್ರ",
+    "status": "operational",
+    "lineIds": [
+     "yellow"
+    ],
+    "futureLineIds": [],
+    "osmId": 5760197806,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.688345,
+     12.819394
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-5760198122",
+    "name": "Huskur Road",
+    "nameLocal": "ಹುಸ್ಕೂರು ರಸ್ತೆ",
+    "status": "operational",
+    "lineIds": [
+     "yellow"
+    ],
+    "futureLineIds": [],
+    "osmId": 5760198122,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.677372,
+     12.839157
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-5760198133",
+    "name": "Infosys Foundation Konappana Agrahara",
+    "nameLocal": "ಇನ್ಫೋಸಿಸ್ ಫೌಂಡೇಶನ್ ಕೊನಪ್ಪನ ಅಗ್ರಹಾರ",
+    "status": "operational",
+    "lineIds": [
+     "yellow"
+    ],
+    "futureLineIds": [],
+    "osmId": 5760198133,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.671187,
+     12.84644
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-5760198145",
+    "name": "Electronic City",
+    "nameLocal": "ಎಲೆಕ್ಟ್ರಾನಿಕ್ ಸಿಟಿ",
+    "status": "operational",
+    "lineIds": [
+     "yellow"
+    ],
+    "futureLineIds": [],
+    "osmId": 5760198145,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.663523,
+     12.856505
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-5760198153",
+    "name": "Beratena Agrahara",
+    "nameLocal": "ಬೆರಟೇನ ಅಗ್ರಹಾರ",
+    "status": "operational",
+    "lineIds": [
+     "yellow"
+    ],
+    "futureLineIds": [],
+    "osmId": 5760198153,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.657904,
+     12.863878
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-5760198162",
+    "name": "Hosa Road",
+    "nameLocal": "ಹೊಸ ರಸ್ತೆ",
+    "status": "operational",
+    "lineIds": [
+     "yellow"
+    ],
+    "futureLineIds": [],
+    "osmId": 5760198162,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.652447,
+     12.870749
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-5760198182",
+    "name": "Singasandra",
+    "nameLocal": "ಸಿಂಗಸಂದ್ರ",
+    "status": "operational",
+    "lineIds": [
+     "yellow"
+    ],
+    "futureLineIds": [],
+    "osmId": 5760198182,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.644846,
+     12.880818
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-5760198187",
+    "name": "Kudlu Gate",
+    "nameLocal": "ಕುಡ್ಲು ಗೇಟ್",
+    "status": "operational",
+    "lineIds": [
+     "yellow"
+    ],
+    "futureLineIds": [],
+    "osmId": 5760198187,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.639216,
+     12.889926
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-5760198198",
+    "name": "Hongasandra",
+    "nameLocal": "ಹೊಂಗಸಂದ್ರ",
+    "status": "operational",
+    "lineIds": [
+     "yellow"
+    ],
+    "futureLineIds": [],
+    "osmId": 5760198198,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.631986,
+     12.901695
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-5760198202",
+    "name": "Bommanahalli",
+    "nameLocal": "ಬೊಮ್ಮನಹಳ್ಳಿ",
+    "status": "operational",
+    "lineIds": [
+     "yellow"
+    ],
+    "futureLineIds": [],
+    "osmId": 5760198202,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.626478,
+     12.910616
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-5760198212",
+    "name": "Central Silk Board",
+    "nameLocal": "ಸೆಂಟ್ರಲ್ ಸಿಲ್ಕ ಬೋರ್ಡ್",
+    "status": "operational",
+    "lineIds": [
+     "yellow"
+    ],
+    "futureLineIds": [
+     "blue"
+    ],
+    "osmId": 5760198212,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.620567,
+     12.916582
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-5760198226",
+    "name": "BTM Layout",
+    "nameLocal": "ಬಿಟಿಎಂ ಬಡಾವಣೆ",
+    "status": "operational",
+    "lineIds": [
+     "yellow"
+    ],
+    "futureLineIds": [],
+    "osmId": 5760198226,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.608118,
+     12.916588
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-5760198239",
+    "name": "Ragigudda",
+    "nameLocal": "ರಾಗಿಗುಡ್ಡ",
+    "status": "operational",
+    "lineIds": [
+     "yellow"
+    ],
+    "futureLineIds": [],
+    "osmId": 5760198239,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.588302,
+     12.917081
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-5960788724",
+    "name": "Dasarahalli",
+    "nameLocal": "ದಾಸರಹಳ್ಳಿ",
+    "status": "operational",
+    "lineIds": [
+     "green"
+    ],
+    "futureLineIds": [],
+    "osmId": 5960788724,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.512553,
+     13.043261
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-5960788725",
+    "name": "Jalahalli",
+    "nameLocal": "ಜಾಲಹಳ್ಳಿ",
+    "status": "operational",
+    "lineIds": [
+     "green"
+    ],
+    "futureLineIds": [],
+    "osmId": 5960788725,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.519735,
+     13.03941
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-5960788726",
+    "name": "Srirampura",
+    "nameLocal": "ಶ್ರೀರಾಮಪುರ",
+    "status": "operational",
+    "lineIds": [
+     "green"
+    ],
+    "futureLineIds": [],
+    "osmId": 5960788726,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.563196,
+     12.996525
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-6400857549",
+    "name": "Baiyappanahalli",
+    "nameLocal": "ಬೈಯ್ಯಪ್ಪನಹಳ್ಳಿ ಮೆಟ್ರೋ ನಿಲ್ದಾಣ",
+    "status": "operational",
+    "lineIds": [
+     "purple"
+    ],
+    "futureLineIds": [],
+    "osmId": 6400857549,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.652361,
+     12.990759
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-6400857550",
+    "name": "Swami Vivekananda Road",
+    "nameLocal": "ಸ್ವಾಮಿ ವಿವೇಕಾನಂದ ರಸ್ತೆ",
+    "status": "operational",
+    "lineIds": [
+     "purple"
+    ],
+    "futureLineIds": [],
+    "osmId": 6400857550,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.644897,
+     12.985931
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-6400857551",
+    "name": "Indiranagar",
+    "nameLocal": "ಇಂದಿರಾನಗರ",
+    "status": "operational",
+    "lineIds": [
+     "purple"
+    ],
+    "futureLineIds": [],
+    "osmId": 6400857551,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.638661,
+     12.978333
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-6400857552",
+    "name": "Halasuru",
+    "nameLocal": "ಹಲಸೂರು",
+    "status": "operational",
+    "lineIds": [
+     "purple"
+    ],
+    "futureLineIds": [],
+    "osmId": 6400857552,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.626686,
+     12.976499
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-6400857553",
+    "name": "Trinity",
+    "nameLocal": "ಟ್ರಿನಿಟಿ ಮೆಟ್ರೊ ನಿಲ್ದಾಣ",
+    "status": "operational",
+    "lineIds": [
+     "purple"
+    ],
+    "futureLineIds": [],
+    "osmId": 6400857553,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.61702,
+     12.973022
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-6400857554",
+    "name": "Mahatma Gandhi Road",
+    "nameLocal": "ಮಹಾತ್ಮ ಗಾಂಧಿ ರಸ್ತೆ",
+    "status": "operational",
+    "lineIds": [
+     "purple"
+    ],
+    "futureLineIds": [
+     "pink"
+    ],
+    "osmId": 6400857554,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.60679,
+     12.975526
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-6400857555",
+    "name": "Cubbon Park",
+    "nameLocal": "ಕಬ್ಬನ್ ಪಾರ್ಕ್",
+    "status": "operational",
+    "lineIds": [
+     "purple"
+    ],
+    "futureLineIds": [],
+    "osmId": 6400857555,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.597576,
+     12.980958
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-6400857556",
+    "name": "Dr. B. R. Ambedkar Station, Vidhana Soudha",
+    "nameLocal": "ಡಾ.ಬಿ.ಆರ್. ಅಂಬೇಡ್ಕರ್ ಠಾಣೆ, ವಿಧಾನಸೌಧ",
+    "status": "operational",
+    "lineIds": [
+     "purple"
+    ],
+    "futureLineIds": [],
+    "osmId": 6400857556,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.591639,
+     12.978742
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-6400857557",
+    "name": "Sir M. Visvesvaraya Stn., Central College",
+    "nameLocal": "ಸರ್ ಎಂ ವಿಶ್ವೇಶ್ವರಯ್ಯ - ಸೆಂಟ್ರಲ್ ಕಾಲೇಜು",
+    "status": "operational",
+    "lineIds": [
+     "purple"
+    ],
+    "futureLineIds": [],
+    "osmId": 6400857557,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.58422,
+     12.97452
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-6400857558",
+    "name": "Nadaprabhu Kempegowda Station, Majestic",
+    "nameLocal": "ನಾಡಪ್ರಭು ಕೆಂಪೇಗೌಡ ನಿಲ್ದಾಣ, ಮೆಜೆಸ್ಟಿಕ್",
+    "status": "operational",
+    "lineIds": [
+     "purple",
+     "green"
+    ],
+    "futureLineIds": [],
+    "osmId": 6400857558,
+    "interchange": true
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.572876,
+     12.975708
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-6400857559",
+    "name": "Krantivira Sangolli Rayanna Railway Station",
+    "nameLocal": "ಕ್ರಾಂತಿವೀರ ಸಂಗೊಳ್ಳಿ ರಾಯಣ್ಣ",
+    "status": "operational",
+    "lineIds": [
+     "purple"
+    ],
+    "futureLineIds": [],
+    "osmId": 6400857559,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.565377,
+     12.975877
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-6400857560",
+    "name": "Magadi Road",
+    "nameLocal": "ಮಾಗಡಿ ರಸ್ತೆ ಮೆಟ್ರೊ",
+    "status": "operational",
+    "lineIds": [
+     "purple"
+    ],
+    "futureLineIds": [],
+    "osmId": 6400857560,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.555352,
+     12.975632
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-6400857561",
+    "name": "Sri Balagangadharanatha Swamiji Station, Hosahalli",
+    "nameLocal": "ಶ್ರೀ ಬಾಲಗಂಗಾಧರನಾಥ ಮೆಟ್ರೋ",
+    "status": "operational",
+    "lineIds": [
+     "purple"
+    ],
+    "futureLineIds": [
+     "orange"
+    ],
+    "osmId": 6400857561,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.545621,
+     12.974293
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-6400857562",
+    "name": "Vijayanagar",
+    "nameLocal": "ವಿಜಯನಗರ",
+    "status": "operational",
+    "lineIds": [
+     "purple"
+    ],
+    "futureLineIds": [],
+    "osmId": 6400857562,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.537404,
+     12.970956
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-6400857563",
+    "name": "Attiguppe",
+    "nameLocal": "ಅತ್ತಿಗುಪ್ಪೆ ಮೆಟ್ರೋ",
+    "status": "operational",
+    "lineIds": [
+     "purple"
+    ],
+    "futureLineIds": [],
+    "osmId": 6400857563,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.533579,
+     12.961893
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-6400857564",
+    "name": "Deepanjali Nagar",
+    "nameLocal": "ದೀಪಾಂಜಲಿ ನಗರ",
+    "status": "operational",
+    "lineIds": [
+     "purple"
+    ],
+    "futureLineIds": [],
+    "osmId": 6400857564,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.537012,
+     12.952058
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-6400857565",
+    "name": "Mysore Road",
+    "nameLocal": "ಮೈಸೂರು ರಸ್ತೆ ಮೆಟ್ರೋ",
+    "status": "operational",
+    "lineIds": [
+     "purple"
+    ],
+    "futureLineIds": [],
+    "osmId": 6400857565,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.530159,
+     12.946718
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-6410706688",
+    "name": "Mantri Square Sampige Road",
+    "nameLocal": "ಮಂತ್ರಿ ಸ್ಕ್ವೇರ್ ಸಂಪಿಗೆ ರಸ್ತೆ",
+    "status": "operational",
+    "lineIds": [
+     "green"
+    ],
+    "futureLineIds": [],
+    "osmId": 6410706688,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.570729,
+     12.990463
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-6410706689",
+    "name": "Mahakavi Kuvempu Road",
+    "nameLocal": "ಮಹಾಕವಿ ಕುವೆಂಪು ರಸ್ತೆ",
+    "status": "operational",
+    "lineIds": [
+     "green"
+    ],
+    "futureLineIds": [],
+    "osmId": 6410706689,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.556899,
+     12.99853
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-6410706690",
+    "name": "Rajajinagar",
+    "nameLocal": "ರಾಜಾಜಿನಗರ",
+    "status": "operational",
+    "lineIds": [
+     "green"
+    ],
+    "futureLineIds": [],
+    "osmId": 6410706690,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.549657,
+     13.000525
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-6410706691",
+    "name": "Mahalakshmi",
+    "nameLocal": "ಮಹಾಲಕ್ಷ್ಮಿ",
+    "status": "operational",
+    "lineIds": [
+     "green"
+    ],
+    "futureLineIds": [],
+    "osmId": 6410706691,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.548807,
+     13.008047
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-6410706692",
+    "name": "Sandal Soap Factory",
+    "nameLocal": "ಸಾಂಡಲ್ ಸೋಪ್ ಕಾರ್ಖಾನೆ",
+    "status": "operational",
+    "lineIds": [
+     "green"
+    ],
+    "futureLineIds": [],
+    "osmId": 6410706692,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.553984,
+     13.014654
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-6410706695",
+    "name": "Peenya",
+    "nameLocal": "ಪೀಣ್ಯ",
+    "status": "operational",
+    "lineIds": [
+     "green"
+    ],
+    "futureLineIds": [],
+    "osmId": 6410706695,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.533201,
+     13.033019
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-6410706696",
+    "name": "Peenya Industry",
+    "nameLocal": "ಪೀಣ್ಯ ಇಂಡಸ್ಟ್ರಿ",
+    "status": "operational",
+    "lineIds": [
+     "green"
+    ],
+    "futureLineIds": [],
+    "osmId": 6410706696,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.525492,
+     13.036318
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-6432710292",
+    "name": "Yelachenahalli",
+    "nameLocal": "ಯಲಚೇನಹಳ್ಳಿ",
+    "status": "operational",
+    "lineIds": [
+     "green"
+    ],
+    "futureLineIds": [],
+    "osmId": 6432710292,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.570119,
+     12.89605
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-6432710293",
+    "name": "Jaya Prakash Nagar",
+    "nameLocal": "ಜೆಪಿ ನಗರ",
+    "status": "operational",
+    "lineIds": [
+     "green"
+    ],
+    "futureLineIds": [
+     "orange"
+    ],
+    "osmId": 6432710293,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.573128,
+     12.907475
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-6432710294",
+    "name": "Banashankari",
+    "nameLocal": "ಬನಶಂಕರಿ",
+    "status": "operational",
+    "lineIds": [
+     "green"
+    ],
+    "futureLineIds": [],
+    "osmId": 6432710294,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.573598,
+     12.915221
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-6432710295",
+    "name": "Rashtreeya Vidyalaya Road",
+    "nameLocal": "ರಾಷ್ಟ್ರೀಯ ವಿದ್ಯಾಲಯ ರಸ್ತೆ",
+    "status": "operational",
+    "lineIds": [
+     "green",
+     "yellow"
+    ],
+    "futureLineIds": [],
+    "osmId": 6432710295,
+    "interchange": true
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.580202,
+     12.921581
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-6432710296",
+    "name": "Jayanagar",
+    "nameLocal": "ಜಯನಗರ",
+    "status": "operational",
+    "lineIds": [
+     "green"
+    ],
+    "futureLineIds": [],
+    "osmId": 6432710296,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.580144,
+     12.929507
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-6432710297",
+    "name": "South End Circle",
+    "nameLocal": "ತಿ.ನಂ.ಶ್ರೀ ವೃತ್ತ",
+    "status": "operational",
+    "lineIds": [
+     "green"
+    ],
+    "futureLineIds": [],
+    "osmId": 6432710297,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.580056,
+     12.938257
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-6432710298",
+    "name": "Lalbagh",
+    "nameLocal": "ಲಾಲ್ ಬಾಗ್",
+    "status": "operational",
+    "lineIds": [
+     "green"
+    ],
+    "futureLineIds": [],
+    "osmId": 6432710298,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.580016,
+     12.946526
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-6432710299",
+    "name": "National College",
+    "nameLocal": "ನ್ಯಾಶನಲ್ ಕಾಲೇಜು",
+    "status": "operational",
+    "lineIds": [
+     "green"
+    ],
+    "futureLineIds": [],
+    "osmId": 6432710299,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.57369,
+     12.950527
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-6432710300",
+    "name": "Krishna Rajendra Market",
+    "nameLocal": "ಕೃಷ್ಣರಾಜೇಂದ್ರ ಮಾರುಕಟ್ಟೆ",
+    "status": "operational",
+    "lineIds": [
+     "green"
+    ],
+    "futureLineIds": [],
+    "osmId": 6432710300,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.574658,
+     12.960879
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-6432710301",
+    "name": "Chickpete",
+    "nameLocal": "ಚಿಕ್ಕಪೇಟೆ",
+    "status": "operational",
+    "lineIds": [
+     "green"
+    ],
+    "futureLineIds": [],
+    "osmId": 6432710301,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.574557,
+     12.966897
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-9049846515",
+    "name": "Jnanabharathi",
+    "nameLocal": "ಜ್ಞಾನ ಭಾರತಿ",
+    "status": "operational",
+    "lineIds": [
+     "purple"
+    ],
+    "futureLineIds": [],
+    "osmId": 9049846515,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.512177,
+     12.93542
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-9050797592",
+    "name": "Pantharapalya - Nayandahalli",
+    "nameLocal": "ಪಂತರಪಾಳ್ಯ - ನಾಯಂಡಹಳ್ಳಿ",
+    "status": "operational",
+    "lineIds": [
+     "purple"
+    ],
+    "futureLineIds": [],
+    "osmId": 9050797592,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.525117,
+     12.941671
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-9051395755",
+    "name": "Kengeri Bus Terminal",
+    "nameLocal": "ಕೆಂಗೇರಿ ಬಸ್ ಟರ್ಮಿನಲ್",
+    "status": "operational",
+    "lineIds": [
+     "purple"
+    ],
+    "futureLineIds": [],
+    "osmId": 9051395755,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.487773,
+     12.914788
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-9051405243",
+    "name": "Kengeri",
+    "nameLocal": "ಕೆಂಗೇರಿ",
+    "status": "operational",
+    "lineIds": [
+     "purple"
+    ],
+    "futureLineIds": [],
+    "osmId": 9051405243,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.476578,
+     12.90791
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-9051410519",
+    "name": "Rajarajeshwari Nagar",
+    "nameLocal": "ರಾಜರಾಜೇಶ್ವರಿ ನಗರ",
+    "status": "operational",
+    "lineIds": [
+     "purple"
+    ],
+    "futureLineIds": [],
+    "osmId": 9051410519,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.519679,
+     12.9366
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-9051417969",
+    "name": "Pattanagere",
+    "nameLocal": "ಪಟ್ಟಣಗೆರೆ",
+    "status": "operational",
+    "lineIds": [
+     "purple"
+    ],
+    "futureLineIds": [],
+    "osmId": 9051417969,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.49828,
+     12.924302
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-9906325542",
+    "name": "Suddaguntepalya",
+    "nameLocal": "ಸುದ್ದಗುಂಟೆಪಾಳ್ಯ",
+    "status": "operational",
+    "lineIds": [
+     "pink"
+    ],
+    "futureLineIds": [],
+    "osmId": 9906325542,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.600538,
+     12.929498
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-9906325548",
+    "name": "Kalena Agrahara",
+    "nameLocal": "ಕಾಳೇನ ಅಗ್ರಹಾರ",
+    "status": "operational",
+    "lineIds": [
+     "pink"
+    ],
+    "futureLineIds": [],
+    "osmId": 9906325548,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.593729,
+     12.871578
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-9906325549",
+    "name": "Hulimavu",
+    "nameLocal": "ಹುಳಿಮಾವು",
+    "status": "operational",
+    "lineIds": [
+     "pink"
+    ],
+    "futureLineIds": [],
+    "osmId": 9906325549,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.59586,
+     12.880833
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-9906325550",
+    "name": "Bilekahalli IIM-B",
+    "nameLocal": "ಬಿಳೇಕಹಳ್ಳಿ ಐಐಎಂ-ಬಿ",
+    "status": "operational",
+    "lineIds": [
+     "pink"
+    ],
+    "futureLineIds": [],
+    "osmId": 9906325550,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.599594,
+     12.895724
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-9919570131",
+    "name": "Challaghatta",
+    "nameLocal": "ಚಲ್ಲಘಟ್ಟ",
+    "status": "operational",
+    "lineIds": [
+     "purple"
+    ],
+    "futureLineIds": [],
+    "osmId": 9919570131,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.461288,
+     12.897354
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-9919651773",
+    "name": "Silk Institute",
+    "nameLocal": "ರೇಷ್ಮೆ ಸಂಸ್ಥೆ",
+    "status": "operational",
+    "lineIds": [
+     "green"
+    ],
+    "futureLineIds": [],
+    "osmId": 9919651773,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.529955,
+     12.86173
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-9919651774",
+    "name": "Thalaghattapura",
+    "nameLocal": "ತಲಘಟ್ಟಪುರ",
+    "status": "operational",
+    "lineIds": [
+     "green"
+    ],
+    "futureLineIds": [],
+    "osmId": 9919651774,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.538396,
+     12.87141
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-9919651775",
+    "name": "Vajarahalli",
+    "nameLocal": "ವಾಜರಹಳ್ಳಿ",
+    "status": "operational",
+    "lineIds": [
+     "green"
+    ],
+    "futureLineIds": [],
+    "osmId": 9919651775,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.544741,
+     12.877437
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-9919651776",
+    "name": "Doddakallasandra",
+    "nameLocal": "ದೊಡ್ಡಕಲ್ಲಸಂದ್ರ",
+    "status": "operational",
+    "lineIds": [
+     "green"
+    ],
+    "futureLineIds": [],
+    "osmId": 9919651776,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.552755,
+     12.884643
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-9919651777",
+    "name": "Konanakunte Cross",
+    "nameLocal": "ಕೋಣನಕುಂಟೆ ಕ್ರಾಸ್",
+    "status": "operational",
+    "lineIds": [
+     "green"
+    ],
+    "futureLineIds": [],
+    "osmId": 9919651777,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.562667,
+     12.888967
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-10121124397",
+    "name": "N S Palya",
+    "nameLocal": "ಎನ್ ಎಸ್ ಪಾಳ್ಯ",
+    "status": "operational",
+    "lineIds": [
+     "pink"
+    ],
+    "futureLineIds": [
+     "orange"
+    ],
+    "osmId": 10121124397,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.600139,
+     12.909771
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-11521199307",
+    "name": "Biocon Hebbagodi",
+    "nameLocal": "ಬಯೋಕಾನ್ ಹೆಬ್ಬಗೋಡಿ",
+    "status": "operational",
+    "lineIds": [
+     "yellow"
+    ],
+    "futureLineIds": [],
+    "osmId": 11521199307,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.681374,
+     12.829033
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-11941173068",
+    "name": "Nagasandra",
+    "nameLocal": "ನಾಗಸಂದ್ರ",
+    "status": "operational",
+    "lineIds": [
+     "green"
+    ],
+    "futureLineIds": [],
+    "osmId": 11941173068,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.500142,
+     13.047954
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-11941186869",
+    "name": "Yeshwantpur",
+    "nameLocal": "ಯಶವಂತಪುರ",
+    "status": "operational",
+    "lineIds": [
+     "green"
+    ],
+    "futureLineIds": [],
+    "osmId": 11941186869,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.549875,
+     13.023268
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-11941186870",
+    "name": "Kadugodi Tree Park",
+    "nameLocal": "ಕಾಡುಗೋಡಿ ಟ್ರೀ ಪಾರ್ಕ್",
+    "status": "operational",
+    "lineIds": [
+     "purple"
+    ],
+    "futureLineIds": [],
+    "osmId": 11941186870,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.747012,
+     12.98565
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-1578382143",
+    "name": "Tannery Road",
+    "nameLocal": "ತನ್ನೆರಿ ರೋಡ್",
+    "status": "construction",
+    "lineIds": [
+     "pink"
+    ],
+    "futureLineIds": [],
+    "osmId": 1578382143,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.613949,
+     13.00959
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-1578382496",
+    "name": "Lakkasandra",
+    "nameLocal": "ಲಕ್ಕಸಂದ್ರ",
+    "status": "construction",
+    "lineIds": [
+     "pink"
+    ],
+    "futureLineIds": [],
+    "osmId": 1578382496,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.603035,
+     12.949486
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-1578382785",
+    "name": "Rashtriya Military School",
+    "nameLocal": "ರಾಷ್ಟ್ರೀಯ ಮಿಲಿಟರಿ ಶಾಲೆ",
+    "status": "construction",
+    "lineIds": [
+     "pink"
+    ],
+    "futureLineIds": [],
+    "osmId": 1578382785,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.606948,
+     12.965276
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-1579059710",
+    "name": "Kadugundanahalli",
+    "nameLocal": "ಕಡುಗುಂಡನಹಳ್ಳಿ",
+    "status": "construction",
+    "lineIds": [
+     "pink"
+    ],
+    "futureLineIds": [],
+    "osmId": 1579059710,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.620727,
+     13.029958
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-1579059713",
+    "name": "Venkateshapura",
+    "nameLocal": "ವೆಂಕಟೇಶಪುರ",
+    "status": "construction",
+    "lineIds": [
+     "pink"
+    ],
+    "futureLineIds": [],
+    "osmId": 1579059713,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.618018,
+     13.017306
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-1579059716",
+    "name": "Shivajinagar",
+    "nameLocal": "ಶಿವಾಜಿನಗರ",
+    "status": "construction",
+    "lineIds": [
+     "pink"
+    ],
+    "futureLineIds": [],
+    "osmId": 1579059716,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.602035,
+     12.983849
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-4969383807",
+    "name": "Dairy Circle",
+    "nameLocal": null,
+    "status": "construction",
+    "lineIds": [
+     "pink"
+    ],
+    "futureLineIds": [],
+    "osmId": 4969383807,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.602429,
+     12.941223
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-4969391953",
+    "name": "Langford Town",
+    "nameLocal": "ಲ್ಯಾಂಗ್ಫೋರ್ಡ್ ಟೌನ್",
+    "status": "construction",
+    "lineIds": [
+     "pink"
+    ],
+    "futureLineIds": [],
+    "osmId": 4969391953,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.605864,
+     12.956231
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-4975616695",
+    "name": "Nagawara",
+    "nameLocal": "ನಾಗವಾರ",
+    "status": "construction",
+    "lineIds": [
+     "blue",
+     "pink"
+    ],
+    "futureLineIds": [],
+    "osmId": 4975616695,
+    "interchange": true
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.62502,
+     13.041216
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-9918955252",
+    "name": "Saraswathi Nagar",
+    "nameLocal": "ಸರಸ್ವತಿ ನಗರ",
+    "status": "construction",
+    "lineIds": [
+     "blue"
+    ],
+    "futureLineIds": [],
+    "osmId": 9918955252,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.685502,
+     12.993711
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-9918955253",
+    "name": "Bagmane DRDO Sports Complex",
+    "nameLocal": "ಡಿಆರ್‌ಡಿಒ ಕ್ರೀಡಾ ಸಂಕೀರ್ಣ",
+    "status": "construction",
+    "lineIds": [
+     "blue"
+    ],
+    "futureLineIds": [],
+    "osmId": 9918955253,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.690758,
+     12.985918
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-9918955254",
+    "name": "Doddanakundi",
+    "nameLocal": "ದೊಡ್ದನೆಕ್ಕುಂದಿ",
+    "status": "construction",
+    "lineIds": [
+     "blue"
+    ],
+    "futureLineIds": [],
+    "osmId": 9918955254,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.697034,
+     12.97561
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-9918955255",
+    "name": "ISRO",
+    "nameLocal": "ಇಸ್ರೋ",
+    "status": "construction",
+    "lineIds": [
+     "blue"
+    ],
+    "futureLineIds": [],
+    "osmId": 9918955255,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.70112,
+     12.968982
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-9918955256",
+    "name": "Marathahalli",
+    "nameLocal": "ಮಾರತಹಳ್ಳಿ",
+    "status": "construction",
+    "lineIds": [
+     "blue"
+    ],
+    "futureLineIds": [],
+    "osmId": 9918955256,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.701329,
+     12.957963
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-9918955257",
+    "name": "Kodibisanahalli",
+    "nameLocal": "ಕೋಡಿಬೀಸನಹಳ್ಳಿ",
+    "status": "construction",
+    "lineIds": [
+     "blue"
+    ],
+    "futureLineIds": [],
+    "osmId": 9918955257,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.698107,
+     12.945212
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-9918955258",
+    "name": "Embassy Tech Village Kadubeesanahalli",
+    "nameLocal": "ಕಾಡುಬೀಸನಹಳ್ಳಿ",
+    "status": "construction",
+    "lineIds": [
+     "blue"
+    ],
+    "futureLineIds": [],
+    "osmId": 9918955258,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.687553,
+     12.932209
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-9918955259",
+    "name": "Prestige Bellandur",
+    "nameLocal": "ಬೆಳ್ಳಂದೂರ್",
+    "status": "construction",
+    "lineIds": [
+     "blue"
+    ],
+    "futureLineIds": [],
+    "osmId": 9918955259,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.680355,
+     12.927801
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-9918955260",
+    "name": "InMobi Ibbaluru",
+    "nameLocal": "ಇಬ್ಬಲೂರು",
+    "status": "construction",
+    "lineIds": [
+     "blue"
+    ],
+    "futureLineIds": [
+     "red"
+    ],
+    "osmId": 9918955260,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.663146,
+     12.921026
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-9918955261",
+    "name": "Agara Lake",
+    "nameLocal": "ಅಗರ",
+    "status": "construction",
+    "lineIds": [
+     "blue"
+    ],
+    "futureLineIds": [],
+    "osmId": 9918955261,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.643729,
+     12.920682
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-9918955262",
+    "name": "HSR Layout",
+    "nameLocal": "ಎಚ್‌ಎಸ್‌ಆರ್ ಲೇ ಔಟ್",
+    "status": "construction",
+    "lineIds": [
+     "blue"
+    ],
+    "futureLineIds": [],
+    "osmId": 9918955262,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.633148,
+     12.916461
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-9919651220",
+    "name": "Hebbal",
+    "nameLocal": "ಹೆಬ್ಬಾಳ",
+    "status": "construction",
+    "lineIds": [
+     "blue"
+    ],
+    "futureLineIds": [],
+    "osmId": 9919651220,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.593163,
+     13.043953
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-9919651242",
+    "name": "Kempapura",
+    "nameLocal": "ಕೆಂಪಾಪುರ",
+    "status": "construction",
+    "lineIds": [
+     "blue"
+    ],
+    "futureLineIds": [
+     "orange"
+    ],
+    "osmId": 9919651242,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.605156,
+     13.043703
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-9919651243",
+    "name": "Veerannapalya",
+    "nameLocal": "ವೀರಣ್ಣಪಾಳ್ಯ",
+    "status": "construction",
+    "lineIds": [
+     "blue"
+    ],
+    "futureLineIds": [],
+    "osmId": 9919651243,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.618046,
+     13.040996
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-9919651245",
+    "name": "HBR Layout",
+    "nameLocal": "ಎಚ್‌ಬಿಆರ್ ಲೇ ಔಟ್",
+    "status": "construction",
+    "lineIds": [
+     "blue"
+    ],
+    "futureLineIds": [],
+    "osmId": 9919651245,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.629815,
+     13.032517
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-9919651246",
+    "name": "Kalyan Nagar",
+    "nameLocal": "ಕಲ್ಯಾಣ್ ನಗರ",
+    "status": "construction",
+    "lineIds": [
+     "blue"
+    ],
+    "futureLineIds": [],
+    "osmId": 9919651246,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.638066,
+     13.026213
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-9919651247",
+    "name": "HRBR Layout",
+    "nameLocal": "ಎಚ್‌ಆರ್‌ಬಿಆರ್ ಲೇ ಔಟ್",
+    "status": "construction",
+    "lineIds": [
+     "blue"
+    ],
+    "futureLineIds": [],
+    "osmId": 9919651247,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.647368,
+     13.022575
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-9919651248",
+    "name": "Horamavu",
+    "nameLocal": "ಹೊರಮಾವು",
+    "status": "construction",
+    "lineIds": [
+     "blue"
+    ],
+    "futureLineIds": [],
+    "osmId": 9919651248,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.659565,
+     13.017388
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-9919651249",
+    "name": "Kasturinagara",
+    "nameLocal": "ಕಸ್ತೂರಿನಗರ",
+    "status": "construction",
+    "lineIds": [
+     "blue"
+    ],
+    "futureLineIds": [],
+    "osmId": 9919651249,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.662634,
+     13.008031
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-9919741624",
+    "name": "KIAL Terminals",
+    "nameLocal": "ಕೆಐಎಬಿ ವಿಮಾನ ನಿಲ್ದಾಣ ಟರ್ಮಿನಲ್ಸ್",
+    "status": "construction",
+    "lineIds": [
+     "blue"
+    ],
+    "futureLineIds": [],
+    "osmId": 9919741624,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.712912,
+     13.198184
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-9919741625",
+    "name": "Airport City",
+    "nameLocal": "ವಿಮಾನ ನಿಲ್ದಾಣ ನಗರ",
+    "status": "construction",
+    "lineIds": [
+     "blue"
+    ],
+    "futureLineIds": [],
+    "osmId": 9919741625,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.686993,
+     13.198351
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-9919741626",
+    "name": "Doddajala",
+    "nameLocal": "ದೊಡ್ಡಜಾಲ",
+    "status": "construction",
+    "lineIds": [
+     "blue"
+    ],
+    "futureLineIds": [],
+    "osmId": 9919741626,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.644631,
+     13.188381
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-9919741628",
+    "name": "Bagalur Cross",
+    "nameLocal": "ಬಾಗಲೂರು ಕ್ರಾಸ್",
+    "status": "construction",
+    "lineIds": [
+     "blue"
+    ],
+    "futureLineIds": [],
+    "osmId": 9919741628,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.609816,
+     13.119362
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-9919741629",
+    "name": "Yelahanka",
+    "nameLocal": "ಯಲಹಂಕ",
+    "status": "construction",
+    "lineIds": [
+     "blue"
+    ],
+    "futureLineIds": [],
+    "osmId": 9919741629,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.600207,
+     13.10185
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-9919741631",
+    "name": "Kodigehalli",
+    "nameLocal": "ಕೊಡಿಗೇಹಳ್ಳಿ",
+    "status": "construction",
+    "lineIds": [
+     "blue"
+    ],
+    "futureLineIds": [],
+    "osmId": 9919741631,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.593676,
+     13.056741
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-11023074908",
+    "name": "Jakkur Cross",
+    "nameLocal": "ಜಕ್ಕೂರು ಅಡ್ಡ",
+    "status": "construction",
+    "lineIds": [
+     "blue"
+    ],
+    "futureLineIds": [],
+    "osmId": 11023074908,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.593119,
+     13.070053
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-13800769513",
+    "name": "Pottery Town",
+    "nameLocal": "ಪೊಟರಿ ಟೌನ್",
+    "status": "construction",
+    "lineIds": [
+     "pink"
+    ],
+    "futureLineIds": [],
+    "osmId": 13800769513,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.609432,
+     13.000652
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "osm-13800769520",
+    "name": "Cantonment",
+    "nameLocal": "ಕಂಟೋನ್ಮೆಂಟ್",
+    "status": "construction",
+    "lineIds": [
+     "pink"
+    ],
+    "futureLineIds": [],
+    "osmId": 13800769520,
+    "interchange": false
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.60622,
+     12.991793
+    ]
+   }
+  }
+ ],
+ "meta": {
+  "osmTimestamp": "2026-11-20T20:19:23Z",
+  "attribution": "© OpenStreetMap contributors (ODbL)"
+ }
+}
