@@ -57,7 +57,7 @@ function buildStyle(data: CityData, theme: ThemeId, filter: MetroFilter): StyleS
   return {
     version: 8,
     glyphs: GLYPHS,
-    sources: { ...basemapSources, ...metroSources(data) },
+    sources: { ...basemapSources, ...metroSources(data, filter.route) },
     layers: [...basemapLayers(palette), ...metroLayers(palette, filter)],
     sky: {
       'sky-color': palette.background,
@@ -178,6 +178,39 @@ export function MapView({ data, theme, filter, trips, onSelectStation }: Props) 
     if (bounds.isEmpty()) return;
     map.fitBounds(bounds, { padding: 40, pitch: 40, bearing: map.getBearing(), duration: reducedMotion() ? 0 : 1400, maxZoom: 13.5 });
   }, [filter.focusLine, data]);
+
+  // Frame a planned journey whenever its path changes.
+  useEffect(() => {
+    const map = mapRef.current;
+    if (!map) return;
+    const narrow = window.matchMedia('(max-width: 720px)').matches;
+    if (!filter.route?.features.length) {
+      map.setPadding(padding());
+      return;
+    }
+    // On phones the planner replaces the header and sits at the bottom: fit the route above it.
+    if (narrow) {
+      const top = document.querySelector('.route-panel')?.getBoundingClientRect().top;
+      map.setPadding({ top: 70, left: 10, right: 10, bottom: top ? window.innerHeight - top + 10 : 300 });
+    }
+    const bounds = new maplibregl.LngLatBounds();
+    for (const f of filter.route.features) {
+      const g = f.geometry;
+      if (g.type === 'LineString') for (const c of g.coordinates) bounds.extend(c as [number, number]);
+      else if (g.type === 'Point') bounds.extend(g.coordinates as [number, number]);
+    }
+    // This adds to the map's own panel padding (left panel / phone header), so
+    // only make room for the planner on the right when the window is wide enough.
+    const roomRight = window.innerWidth > 1100 ? 280 : 30;
+    const cam = map.cameraForBounds(bounds, {
+      padding: narrow ? 24 : { top: 30, bottom: 30, left: 30, right: roomRight },
+      bearing: map.getBearing(),
+      maxZoom: 14,
+    });
+    if (!cam) return;
+    // The fit is for a flat map: tilted, the far end recedes, so pull back a touch.
+    map.flyTo({ ...cam, zoom: (cam.zoom ?? 12) - (narrow ? 0.45 : 0.2), pitch: narrow ? 25 : 35, duration: reducedMotion() ? 0 : 1400 });
+  }, [filter.route]);
 
   // Entering the growth timeline: pull back to the whole city so every opening is in view.
   const inTimeline = filter.timelineYear != null;

@@ -24,6 +24,8 @@ interface AppState {
   focusLine: string | null;
   /** Network-growth mode: show the network as of this year (null = today). */
   timelineYear: number | null;
+  /** Route planner: open with chosen station ids (null = closed). */
+  route: { from: string | null; to: string | null } | null;
   setCity: (id: string) => void;
   setTheme: (t: ThemeId) => void;
   toggleStatus: (s: LineStatus) => void;
@@ -31,6 +33,10 @@ interface AppState {
   selectStation: (id: string | null) => void;
   setFocusLine: (id: string | null) => void;
   setTimelineYear: (y: number | null) => void;
+  /** Open the planner, optionally setting either end. */
+  planRoute: (ends?: { from?: string | null; to?: string | null }) => void;
+  swapRoute: () => void;
+  closeRoute: () => void;
 }
 
 export const useApp = create<AppState>((set) => ({
@@ -41,8 +47,10 @@ export const useApp = create<AppState>((set) => ({
   selectedStationId: null,
   focusLine: null,
   timelineYear: null,
+  route: null,
 
-  setCity: (cityId) => set({ cityId, hiddenLines: [], selectedStationId: null, focusLine: null, timelineYear: null }),
+  setCity: (cityId) =>
+    set({ cityId, hiddenLines: [], selectedStationId: null, focusLine: null, timelineYear: null, route: null }),
   setTheme: (theme) => {
     try {
       localStorage.setItem(THEME_KEY, theme);
@@ -62,5 +70,14 @@ export const useApp = create<AppState>((set) => ({
   selectStation: (selectedStationId) => set({ selectedStationId }),
   setFocusLine: (focusLine) =>
     set((st) => ({ focusLine, hiddenLines: focusLine ? st.hiddenLines.filter((x) => x !== focusLine) : st.hiddenLines })),
-  setTimelineYear: (timelineYear) => set({ timelineYear }),
+  setTimelineYear: (timelineYear) => set(timelineYear === null ? { timelineYear } : { timelineYear, route: null }),
+  planRoute: (ends = {}) =>
+    set((st) => ({
+      route: { from: null, to: null, ...st.route, ...ends },
+      selectedStationId: null,
+      focusLine: null,
+      timelineYear: null,
+    })),
+  swapRoute: () => set((st) => (st.route ? { route: { from: st.route.to, to: st.route.from } } : {})),
+  closeRoute: () => set({ route: null }),
 }));

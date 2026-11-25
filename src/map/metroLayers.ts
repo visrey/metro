@@ -1,3 +1,4 @@
+import type { FeatureCollection } from 'geojson';
 import type { ExpressionSpecification, LayerSpecification, SourceSpecification } from 'maplibre-gl';
 import type { CityData, LineStatus } from '../data/types';
 import type { MapPalette } from '../theme/themes';
@@ -6,6 +7,7 @@ import { FONT_BOLD, FONT_REGULAR } from './basemap';
 export const LINES_SOURCE = 'metro-lines';
 export const STATIONS_SOURCE = 'metro-stations';
 export const TIMELINE_SOURCE = 'metro-timeline';
+export const ROUTE_SOURCE = 'metro-route';
 export const STATION_LAYERS = ['metro-stations', 'metro-interchanges'];
 
 export interface MetroFilter {
@@ -18,6 +20,8 @@ export interface MetroFilter {
   focusLine?: string | null;
   /** Show the network as it was (or will be) in this year instead of today. */
   timelineYear?: number | null;
+  /** A planned journey to draw on top; everything else fades back. */
+  route?: FeatureCollection | null;
 }
 
 type Expr = ExpressionSpecification;
@@ -26,8 +30,11 @@ const NONE: Expr = ['boolean', false];
 const zoomed = (pairs: [number, number][]) =>
   ['interpolate', ['exponential', 1.4], ['zoom'], ...pairs.flat()] as unknown as Expr;
 
-export function metroSources(data: CityData): Record<string, SourceSpecification> {
+const EMPTY: FeatureCollection = { type: 'FeatureCollection', features: [] };
+
+export function metroSources(data: CityData, route?: FeatureCollection | null): Record<string, SourceSpecification> {
   return {
+    [ROUTE_SOURCE]: { type: 'geojson', data: (route ?? EMPTY) as never },
     [LINES_SOURCE]: { type: 'geojson', data: data.lines as never, lineMetrics: true },
     [STATIONS_SOURCE]: { type: 'geojson', data: data.stations as never, promoteId: 'id' },
     [TIMELINE_SOURCE]: { type: 'geojson', data: data.timeline as never },
@@ -40,12 +47,13 @@ export function metroLayers(c: MapPalette, f: MetroFilter): LayerSpecification[]
   const notHidden: Expr = ['!', ['in', ['get', 'lineId'], ['literal', f.hiddenLines]]];
 
   // Focus: the chosen line at full strength, the rest faded right back.
+  const routing = !!f.route?.features.length;
   const lineFade = (o: number): Expr | number =>
-    f.focusLine ? ['case', ['==', ['get', 'lineId'], f.focusLine], o, o * 0.12] : o;
+    routing ? o * 0.18 : f.focusLine ? ['case', ['==', ['get', 'lineId'], f.focusLine], o, o * 0.12] : o;
   const onFocus: Expr = f.focusLine
     ? ['any', ['in', f.focusLine, ['get', 'lineIds']], ['in', f.focusLine, ['get', 'futureLineIds']]]
     : ['literal', true];
-  const stationFade = (o: number): Expr | number => (f.focusLine ? ['case', onFocus, o, o * 0.15] : o);
+  const stationFade = (o: number): Expr | number => (routing ? o * 0.25 : f.focusLine ? ['case', onFocus, o, o * 0.15] : o);
 
   const lineVisible = (status: LineStatus): Expr =>
     today && f.statuses.includes(status) ? ['all', ['==', ['get', 'status'], status], notHidden] : NONE;
@@ -200,9 +208,55 @@ export function metroLayers(c: MapPalette, f: MetroFilter): LayerSpecification[]
         'circle-pitch-alignment': 'map',
       },
     },
+    // Planned journey: bright legs in line colour, walks dashed, board/change/alight stops.
+    {
+      id: 'route-glow', type: 'line', source: ROUTE_SOURCE, filter: ['==', ['get', 'kind'], 'ride'],
+      layout: { 'line-cap': 'round', 'line-join': 'round' },
+      paint: {
+        'line-color': ['get', 'color'],
+        'line-width': zoomed([[9, 14], [13, 26], [16, 44]]),
+        'line-blur': zoomed([[9, 8], [13, 14], [16, 22]]),
+        'line-opacity': c.dark ? 0.75 : 0.45,
+      },
+    },
+    {
+      id: 'route-core', type: 'line', source: ROUTE_SOURCE, filter: ['==', ['get', 'kind'], 'ride'],
+      layout: { 'line-cap': 'round', 'line-join': 'round' },
+      paint: {
+        'line-color': ['get', 'color'],
+        'line-width': zoomed([[9, 4.5], [13, 7], [16, 12]]),
+      },
+    },
+    {
+      id: 'route-walk', type: 'line', source: ROUTE_SOURCE, filter: ['==', ['get', 'kind'], 'walk'],
+      layout: { 'line-cap': 'round' },
+      paint: { 'line-color': c.stationLabel, 'line-width': zoomed([[9, 2], [16, 4]]), 'line-dasharray': [0.5, 1.8] },
+    },
+    {
+      id: 'route-stops', type: 'circle', source: ROUTE_SOURCE, filter: ['==', ['get', 'kind'], 'stop'],
+      paint: {
+        'circle-radius': ['case', ['==', ['get', 'role'], 'change'], 6, 8] as never,
+        'circle-color': ['case', ['==', ['get', 'role'], 'end'], ['get', 'color'], c.stationFill] as never,
+        'circle-stroke-color': ['case', ['==', ['get', 'role'], 'change'], c.stationLabel, ['get', 'color']] as never,
+        'circle-stroke-width': 3,
+        'circle-pitch-alignment': 'map',
+      },
+    },
+    {
+      id: 'route-labels', type: 'symbol', source: ROUTE_SOURCE, filter: ['==', ['get', 'kind'], 'stop'],
+      layout: {
+        'text-field': ['get', 'name'],
+        'text-font': FONT_BOLD as never,
+        'text-size': 12.5,
+        'text-variable-anchor': ['left', 'right', 'top', 'bottom'],
+        'text-radial-offset': 1.1,
+        'text-allow-overlap': false,
+      },
+      paint: { 'text-color': c.stationLabel, 'text-halo-color': c.background, 'text-halo-width': 2 },
+    },
     {
       id: 'metro-station-labels', type: 'symbol', source: STATIONS_SOURCE,
-      filter: f.focusLine ? ['all', stationVisible, onFocus] : stationVisible,
+      filter: routing ? NONE : f.focusLine ? ['all', stationVisible, onFocus] : stationVisible,
       minzoom: f.focusLine ? 10.5 : 11.5,
       layout: {
         'text-field': ['get', 'name'],

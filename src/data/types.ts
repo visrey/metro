@@ -27,6 +27,8 @@ export interface CityMeta {
   name: string;
   nameLocal?: string;
   system: string;
+  /** Search-friendly page title, using the names people search for (e.g. "Bangalore Metro Map"). */
+  seoTitle?: string;
   operator: string;
   asOf: string;
   camera: { center: [number, number]; zoom: number; pitch: number; bearing: number };

@@ -3,6 +3,7 @@
   "name": "Delhi NCR",
   "nameLocal": "दिल्ली",
   "system": "Delhi Metro",
+  "seoTitle": "Delhi Metro Map — DMRC route map with all lines & stations",
   "operator": "Delhi Metro Rail Corporation (DMRC), with Noida Metro (NMRC) and Rapid Metro Gurugram",
   "asOf": "2026-11-21",
   "camera": { "center": [77.17, 28.6], "zoom": 10.2, "pitch": 50, "bearing": -12 },

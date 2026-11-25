@@ -126,6 +126,12 @@ scripts/
     Hosting: GitHub Pages from `main` → `/docs` at metro.visrey.me. `npm run build` writes the site into `docs/` (with `CNAME`, `.nojekyll` and `404.html`); commit `docs/` to publish.
 12. Camera opens fitted to each city's running network, panel-aware on desktop and phone. Line station lists follow the actual track, with branches listed separately.
 
+**Phase 5: Search and sharing (in progress)**
+13. Branded as Metro Visualizer by Visrey. `npm run build` runs `scripts/seo.mjs`, which writes a real page per city (`docs/<id>.html`, served at `/<id>` with a 200) with its own title, description, canonical URL, Open Graph/Twitter tags, schema.org data (WebSite, WebApplication, WebPage with the city's lines) and a readable summary of lines and stations. It also renders 1200×630 share images (`docs/og/`), `sitemap.xml`, `robots.txt` and a noindex `404.html`.
+14. Search content: city pages lead with what people search for ("Bangalore Metro Map", "DMRC route map"), list every line's stations in travel order with local-script names and interchanges, and answer common questions (FAQPage data).
+15. Route planner: pick two stations (search, the map, or "Route from/to here" on a station card) for the earliest arrival on the simulated timetable from the current clock time. It shows each leg (line, direction, times, stops), changes and short walks between nearby stations, draws the journey on the map and only runs that journey's trains. `src/sim/planner.ts` (Connection Scan) works unchanged on a real timetable once one is loaded.
+16. Open timetables (next): Bengaluru has an unofficial GTFS built from BMRCL's published timetables (github.com/Vonter/bmrcl-gtfs, ODbL). Delhi's official DMRC GTFS is on otd.delhi.gov.in behind a download form (last updated Aug 2023). No feed found for Mumbai, so it stays simulated.
+
 **Not yet**
 - Opening years for Delhi and Mumbai are hand-compiled and approximate, like Bengaluru's.
 - Mumbai Line 4 shows track but almost no stations, because OSM doesn't map them yet.

@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { CITIES, lineSummaries, networkStats } from '../data/cities';
 import { lineStopGroups } from '../data/lineStops';
+import { searchStations } from '../data/search';
 import { kmByYear, timelineRange } from '../data/timeline';
 import { STATUSES, type CityData, type LineStatus, type StationProps } from '../data/types';
 import { THEMES, THEME_ORDER, type ThemeId } from '../theme/themes';
@@ -21,7 +22,7 @@ const asOfDate = (d: string) => new Date(d).toLocaleDateString('en-IN', { day: '
 /* ------------------------------------------------------------ header */
 
 export function CityHeader({ data, onAbout }: { data: CityData; onAbout: () => void }) {
-  const { cityId, setCity, timelineYear } = useApp();
+  const { cityId, setCity, timelineYear, planRoute } = useApp();
   const { km, stations } = networkStats(data);
   const inYear = timelineYear !== null;
   const yearKm = inYear ? kmByYear(data.timeline, timelineYear) : 0;
@@ -31,7 +32,7 @@ export function CityHeader({ data, onAbout }: { data: CityData; onAbout: () => v
     <header className="panel header">
       <div className="brand">
         <span className="brand-mark" aria-hidden />
-        METRO ATLAS
+        METRO VISUALIZER
         <button className="icon-btn about-btn" onClick={onAbout} aria-label="About this map" title="About & sources">
           i
         </button>
@@ -59,6 +60,16 @@ export function CityHeader({ data, onAbout }: { data: CityData; onAbout: () => v
       </div>
 
       <StationSearch key={data.meta.id} data={data} />
+      {data.service && (
+        <button className="route-btn" onClick={() => planRoute()}>
+          <svg viewBox="0 0 16 16" aria-hidden>
+            <circle cx="4" cy="3.5" r="2" fill="none" stroke="currentColor" strokeWidth="1.5" />
+            <circle cx="12" cy="12.5" r="2" fill="currentColor" />
+            <path d="M4 5.5v3a2 2 0 0 0 2 2h4a2 2 0 0 1 2 2" fill="none" stroke="currentColor" strokeWidth="1.5" />
+          </svg>
+          Plan a route
+        </button>
+      )}
 
       <nav className="cities" aria-label="City">
         {CITIES.map((c) => (
@@ -99,24 +110,7 @@ function StationSearch({ data }: { data: CityData }) {
   const input = useRef<HTMLInputElement>(null);
   const colorOf = useMemo(() => new Map(data.meta.lines.map((l) => [l.id, l.color])), [data]);
 
-  const results = useMemo(() => {
-    const needle = q.trim().toLowerCase();
-    if (!needle) return [];
-    const score = (s: StationProps) => {
-      const n = s.name.toLowerCase();
-      if (n.startsWith(needle)) return 0;
-      if (n.split(/[\s,()-]+/).some((w) => w.startsWith(needle))) return 1;
-      if (n.includes(needle) || s.nameLocal?.includes(q.trim())) return 2;
-      return 9;
-    };
-    return data.stations.features
-      .map((f) => f.properties)
-      .map((s) => ({ s, k: score(s) }))
-      .filter((x) => x.k < 9)
-      .sort((a, b) => a.k - b.k || a.s.name.localeCompare(b.s.name))
-      .slice(0, 7)
-      .map((x) => x.s);
-  }, [q, data]);
+  const results = useMemo(() => searchStations(data, q), [q, data]);
 
   // "/" focuses search from anywhere.
   useEffect(() => {
@@ -401,7 +395,7 @@ function LineDetail({ data, line, onBack }: { data: CityData; line: LineSummary;
 /* ------------------------------------------------------------ station card */
 
 export function StationCard({ data, departures }: { data: CityData; departures: Map<string, Departure[]> }) {
-  const { selectedStationId, selectStation, timelineYear } = useApp();
+  const { selectedStationId, selectStation, timelineYear, planRoute } = useApp();
   const minute = useClock((s) => Math.floor(s.t / 60));
   const station = data.stations.features.find((f) => f.properties.id === selectedStationId)?.properties;
   if (!station) return null;
@@ -463,6 +457,12 @@ export function StationCard({ data, departures }: { data: CityData; departures: 
           ) : (
             <p className="board-empty">No more trains today.</p>
           )}
+        </div>
+      )}
+      {station.status === 'operational' && timelineYear === null && data.service && (
+        <div className="card-actions">
+          <button onClick={() => planRoute({ from: station.id })}>Route from here</button>
+          <button onClick={() => planRoute({ to: station.id })}>Route to here</button>
         </div>
       )}
     </section>
